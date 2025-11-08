@@ -352,6 +352,7 @@ GameObject:
   - component: {fileID: 742146187}
   - component: {fileID: 742146186}
   - component: {fileID: 742146189}
+  - component: {fileID: 742146190}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -496,6 +497,34 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
+--- !u!114 &742146190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742146185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e888c052b9735e94badbefd52e6d02f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  moveAction: {fileID: 0}
+  jumpAction: {fileID: 0}
+  speed: 5
+  dashMultiplier: 2.5
+  dashDuration: 0.18
+  doubleTapTime: 0.3
+  jumpForce: 6
+  gravity: -30
+  fallMultiplier: 2.5
+  lowJumpMultiplier: 2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  groundTag: ground
+  groundCheckDistance: 0.15
+  groundCheck: {fileID: 0}
 --- !u!1 &1671966625
 GameObject:
   m_ObjectHideFlags: 0
