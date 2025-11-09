@@ -576,23 +576,23 @@ PrefabInstance:
     - target: {fileID: 1532232664161334970, guid: 5861c06ce80505f45a45c56b7eb2f20f, type: 3}
       propertyPath: jumpAction
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -1901348205772859542, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
     - target: {fileID: 1532232664161334970, guid: 5861c06ce80505f45a45c56b7eb2f20f, type: 3}
       propertyPath: moveAction
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1295806683182382035, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
     - target: {fileID: 1532232664161334970, guid: 5861c06ce80505f45a45c56b7eb2f20f, type: 3}
       propertyPath: attackAction
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -8470075761312066123, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
     - target: {fileID: 1532232664161334970, guid: 5861c06ce80505f45a45c56b7eb2f20f, type: 3}
       propertyPath: heavyAttackAction
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -5814700564084258609, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
     - target: {fileID: 1532232664161334970, guid: 5861c06ce80505f45a45c56b7eb2f20f, type: 3}
       propertyPath: specialAttackAction
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2305645867859216348, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
     - target: {fileID: 8091538912718107579, guid: 5861c06ce80505f45a45c56b7eb2f20f, type: 3}
       propertyPath: m_Name
       value: Player2
