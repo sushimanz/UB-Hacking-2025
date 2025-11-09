@@ -384,7 +384,7 @@ MonoBehaviour:
     knockbackUpward: 5
     stunDuration: 0.8
     hitstopDuration: 0.15
-    attackHeight: 2
+    attackHeight: 0
   lowProperties:
     damage: 8
     knockbackForce: 1.2
@@ -405,7 +405,7 @@ MonoBehaviour:
     knockbackUpward: 1
     stunDuration: 1
     hitstopDuration: 0.1
-    attackHeight: 0
+    attackHeight: 2
   hitstopTimeScale: 0.1
   health: 100
   maxHealth: 100

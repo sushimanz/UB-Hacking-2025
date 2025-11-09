@@ -120,7 +120,8 @@ public class proj : MonoBehaviour
                 attackProperties.knockbackUpward, 
                 attackProperties.stunDuration, 
                 attackProperties.hitstopDuration,
-                attackProperties.attackHeight
+                attackProperties.attackHeight,
+                owner // Pass the owner (attacker) reference
             );
             
             // Send message to the parent of the hurtbox collider

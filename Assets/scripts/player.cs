@@ -48,8 +48,9 @@ public struct HitInfo
     public float stunDuration;
     public float hitstopDuration;
     public AttackHeight attackHeight;
+    public GameObject attacker; // Reference to the attacker for callback
 
-    public HitInfo(float damage, Vector2 knockbackDirection, float knockbackForce, float knockbackUpwardForce, float stunDuration, float hitstopDuration, AttackHeight attackHeight)
+    public HitInfo(float damage, Vector2 knockbackDirection, float knockbackForce, float knockbackUpwardForce, float stunDuration, float hitstopDuration, AttackHeight attackHeight, GameObject attacker)
     {
         this.damage = damage;
         this.knockbackDirection = knockbackDirection;
@@ -58,6 +59,7 @@ public struct HitInfo
         this.stunDuration = stunDuration;
         this.hitstopDuration = hitstopDuration;
         this.attackHeight = attackHeight;
+        this.attacker = attacker;
     }
 }
 
@@ -622,7 +624,16 @@ public class player : MonoBehaviour
             else if (!isAirKicking)
             {
                 // Only apply input movement if not air kicking
-                vel2.x = moveDir * currentSpeed;
+                float finalSpeed = currentSpeed;
+                
+                // Check if moving backward (opposite to facing direction)
+                bool movingBackward = (facingDirection == 1 && moveDir < 0) || (facingDirection == -1 && moveDir > 0);
+                if (movingBackward)
+                {
+                    finalSpeed *= 0.4f; // Half speed when walking backward
+                }
+                
+                vel2.x = moveDir * finalSpeed;
             }
             // If air kicking, keep existing horizontal velocity (don't modify vel2.x)
             
@@ -824,23 +835,18 @@ public class player : MonoBehaviour
                 properties.knockbackUpward, 
                 properties.stunDuration, 
                 properties.hitstopDuration,
-                properties.attackHeight
+                properties.attackHeight,
+                gameObject // Pass reference to attacker
             );
             // Send message to the parent of the hurtbox collider
             if (col.transform.parent != null)
             {
                 col.transform.parent.gameObject.SendMessage("OnHit", hitInfo, SendMessageOptions.DontRequireReceiver);
-                
-                // Add this attack to the combo tracker since it successfully hit
-                usedAttacksInCombo.Add(currentAttackType);
             }
             else
             {
                 // If no parent, send to the collider's own GameObject
                 col.gameObject.SendMessage("OnHit", hitInfo, SendMessageOptions.DontRequireReceiver);
-                
-                // Add this attack to the combo tracker since it successfully hit
-                usedAttacksInCombo.Add(currentAttackType);
             }
             
             // Apply hitstop effect with attack-specific duration
@@ -901,10 +907,20 @@ public class player : MonoBehaviour
                 rb2D.linearVelocity = knockback;
             }
             
+            // DON'T add to attacker's combo tracker since attack was blocked
             return; // Don't apply full hit effects
         }
         
-        // Normal hit (not blocked)
+        // Normal hit (not blocked) - add to attacker's combo tracker
+        if (hitInfo.attacker != null)
+        {
+            player attackerScript = hitInfo.attacker.GetComponent<player>();
+            if (attackerScript != null && !string.IsNullOrEmpty(attackerScript.currentAttackType))
+            {
+                attackerScript.usedAttacksInCombo.Add(attackerScript.currentAttackType);
+            }
+        }
+        
         health -= hitInfo.damage;
         Debug.Log(gameObject.name + " was hit! Took " + hitInfo.damage + " damage. Health: " + health);
         
