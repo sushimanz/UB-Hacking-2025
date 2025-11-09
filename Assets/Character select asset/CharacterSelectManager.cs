@@ -42,6 +42,10 @@ public class CharacterSelectManager : MonoBehaviour
     public float moveCooldown = 0.2f;
     public AudioSource audioSource;
     public AudioClip moveSound;
+    public AudioClip invalidSound;
+
+    [Header("Allowed Characters")]
+    public string[] allowedCharacters = { "Ethan", "Alan" };
 
     private Button[,] buttonGrid;
 
@@ -242,27 +246,57 @@ public class CharacterSelectManager : MonoBehaviour
             player2ImagesByName[player2ButtonName].SetActive(true);
     }
 
+    bool IsCharacterAllowed(string characterName)
+    {
+        foreach (string allowedChar in allowedCharacters)
+        {
+            if (characterName.Equals(allowedChar, System.StringComparison.OrdinalIgnoreCase))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     void Player1Select()
     {
         string selected = buttonGrid[player1Row, player1Col].name;
+
+        if (!IsCharacterAllowed(selected))
+        {
+            Debug.Log("Player 1 cannot select " + selected + " - Only Ethan and Alan are available!");
+            PlayInvalidSound();
+            return;
+        }
+
         player1SelectedCharacter = selected;
         player1Confirmed = true;
         PlayerPrefs.SetString("Player1Character", selected);
         if (player1ConfirmIndicator != null) player1ConfirmIndicator.SetActive(true);
         if (player1ReadyText != null) player1ReadyText.gameObject.SetActive(true);
         Debug.Log("Player 1 CONFIRMED: " + selected);
+        PlaySound();
         CheckIfBothPlayersReady();
     }
 
     void Player2Select()
     {
         string selected = buttonGrid[player2Row, player2Col].name;
+
+        if (!IsCharacterAllowed(selected))
+        {
+            Debug.Log("Player 2 cannot select " + selected + " - Only Ethan and Alan are available!");
+            PlayInvalidSound();
+            return;
+        }
+
         player2SelectedCharacter = selected;
         player2Confirmed = true;
         PlayerPrefs.SetString("Player2Character", selected);
         if (player2ConfirmIndicator != null) player2ConfirmIndicator.SetActive(true);
         if (player2ReadyText != null) player2ReadyText.gameObject.SetActive(true);
         Debug.Log("Player 2 CONFIRMED: " + selected);
+        PlaySound();
         CheckIfBothPlayersReady();
     }
 
@@ -287,6 +321,14 @@ public class CharacterSelectManager : MonoBehaviour
     void PlaySound()
     {
         if (audioSource != null && moveSound != null)
+            audioSource.PlayOneShot(moveSound);
+    }
+
+    void PlayInvalidSound()
+    {
+        if (audioSource != null && invalidSound != null)
+            audioSource.PlayOneShot(invalidSound);
+        else if (audioSource != null && moveSound != null)
             audioSource.PlayOneShot(moveSound);
     }
 
