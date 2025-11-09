@@ -1,0 +1,1651 @@
+fileFormatVersion: 2
+guid: 1353846c074b13b449d90a4f5aac0016
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7541404413625640283
+    second: alan_noair_maybe_0
+  - first:
+      213: -1357810563937742211
+    second: alan_noair_maybe_1
+  - first:
+      213: 6759038137840995577
+    second: alan_noair_maybe_2
+  - first:
+      213: 7292458589508164294
+    second: alan_noair_maybe_3
+  - first:
+      213: 7060292197971717304
+    second: alan_noair_maybe_4
+  - first:
+      213: 5682025839970347318
+    second: alan_noair_maybe_5
+  - first:
+      213: 239060949188373520
+    second: alan_noair_maybe_6
+  - first:
+      213: 8703701425082515458
+    second: alan_noair_maybe_7
+  - first:
+      213: 8332640424532075258
+    second: alan_noair_maybe_8
+  - first:
+      213: 3876240415525270454
+    second: alan_noair_maybe_9
+  - first:
+      213: 8496999671146256522
+    second: alan_noair_maybe_10
+  - first:
+      213: -3351632262837987957
+    second: alan_noair_maybe_11
+  - first:
+      213: 422519031780795957
+    second: alan_noair_maybe_12
+  - first:
+      213: 1192924708873560851
+    second: alan_noair_maybe_13
+  - first:
+      213: -5661631361093025263
+    second: alan_noair_maybe_14
+  - first:
+      213: 590249279672054398
+    second: alan_noair_maybe_15
+  - first:
+      213: -6849139604206909655
+    second: alan_noair_maybe_16
+  - first:
+      213: -8353660035735853348
+    second: alan_noair_maybe_17
+  - first:
+      213: 5490445477609017423
+    second: alan_noair_maybe_18
+  - first:
+      213: -2794829398912230756
+    second: alan_noair_maybe_19
+  - first:
+      213: 6090190947601379241
+    second: alan_noair_maybe_20
+  - first:
+      213: -5483550695114393512
+    second: alan_noair_maybe_21
+  - first:
+      213: 3404426795529278537
+    second: alan_noair_maybe_22
+  - first:
+      213: 7205519248953866356
+    second: alan_noair_maybe_23
+  - first:
+      213: 3365934236481709055
+    second: alan_noair_maybe_24
+  - first:
+      213: -2642161473432358443
+    second: alan_noair_maybe_25
+  - first:
+      213: -911177600361382405
+    second: alan_noair_maybe_26
+  - first:
+      213: -3623621784567921938
+    second: alan_noair_maybe_27
+  - first:
+      213: -1683890918933105507
+    second: alan_noair_maybe_28
+  - first:
+      213: 4656537259100697445
+    second: alan_noair_maybe_29
+  - first:
+      213: 5552168470078812769
+    second: alan_noair_maybe_30
+  - first:
+      213: -2442395217860591161
+    second: alan_noair_maybe_31
+  - first:
+      213: 275201558989208131
+    second: alan_noair_maybe_32
+  - first:
+      213: -2437723107320464077
+    second: alan_noair_maybe_33
+  - first:
+      213: 9117734697461367554
+    second: alan_noair_maybe_34
+  - first:
+      213: 22822828132210547
+    second: alan_noair_maybe_35
+  - first:
+      213: 256040727821035594
+    second: alan_noair_maybe_36
+  - first:
+      213: 1850640792725655466
+    second: alan_noair_maybe_37
+  - first:
+      213: 8285104259291736465
+    second: alan_noair_maybe_38
+  - first:
+      213: 7270992107951670233
+    second: alan_noair_maybe_39
+  - first:
+      213: -8362913138946316158
+    second: alan_noair_maybe_40
+  - first:
+      213: 8625677922060652229
+    second: alan_noair_maybe_41
+  - first:
+      213: 5248929863553326811
+    second: alan_noair_maybe_42
+  - first:
+      213: 4772252325164611484
+    second: alan_noair_maybe_43
+  - first:
+      213: 2021296937245147877
+    second: alan_noair_maybe_44
+  - first:
+      213: 6973546808975760142
+    second: alan_noair_maybe_45
+  - first:
+      213: 1364003436805821545
+    second: alan_noair_maybe_46
+  - first:
+      213: -7338550473923204912
+    second: alan_noair_maybe_47
+  - first:
+      213: 4855863197848908179
+    second: alan_noair_maybe_48
+  - first:
+      213: -144590826088949399
+    second: alan_noair_maybe_49
+  - first:
+      213: 6989848689792839075
+    second: alan_noair_maybe_50
+  - first:
+      213: 7091666372979122283
+    second: alan_noair_maybe_51
+  - first:
+      213: 7038807200627372067
+    second: alan_noair_maybe_52
+  - first:
+      213: 2820730651434932470
+    second: alan_noair_maybe_53
+  - first:
+      213: -3138859125929926971
+    second: alan_noair_maybe_54
+  - first:
+      213: 4839293602307879609
+    second: alan_noair_maybe_55
+  - first:
+      213: 4432985673400108157
+    second: alan_noair_maybe_56
+  - first:
+      213: 3166558328490192797
+    second: alan_noair_maybe_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: alan_noair_maybe_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1078
+        width: 89
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5528bdab5378a860800000000000000
+      internalID: 7541404413625640283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1067
+        width: 188
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72d7307c76182de0800000000000000
+      internalID: -1357810563937742211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1077
+        width: 192
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc845d106deccd50800000000000000
+      internalID: 6759038137840995577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1075
+        width: 135
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca51e63374043560800000000000000
+      internalID: 7292458589508164294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_4
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1151
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bce096d8523bf160800000000000000
+      internalID: 7060292197971717304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_5
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1069
+        width: 122
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639e504956c9ade40800000000000000
+      internalID: 5682025839970347318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_6
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1071
+        width: 109
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c6a0caaa0515300800000000000000
+      internalID: 239060949188373520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_7
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1071
+        width: 100
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200ca19f452c9c870800000000000000
+      internalID: 8703701425082515458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 879
+        width: 74
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af26b41615c73a370800000000000000
+      internalID: 8332640424532075258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_9
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 857
+        width: 123
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b37567ee1c2bc530800000000000000
+      internalID: 3876240415525270454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_10
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1024
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88984f8e286be570800000000000000
+      internalID: 8496999671146256522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 869
+        width: 73
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b859dc3f63c9c71d0800000000000000
+      internalID: -3351632262837987957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_12
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 873
+        width: 114
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536e22022d61dd500800000000000000
+      internalID: 422519031780795957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_13
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 873
+        width: 75
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313e13cc3be1e8010800000000000000
+      internalID: 1192924708873560851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_14
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 867
+        width: 76
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112c6d01648dd61b0800000000000000
+      internalID: -5661631361093025263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_15
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 863
+        width: 66
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7278c3b79cf03800800000000000000
+      internalID: 590249279672054398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_16
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 863
+        width: 65
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927003a71d7f2f0a0800000000000000
+      internalID: -6849139604206909655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_17
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 865
+        width: 64
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd666930576d11c80800000000000000
+      internalID: -8353660035735853348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 843
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40198f721bf13c40800000000000000
+      internalID: 5490445477609017423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 667
+        width: 99
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a94062875c639d0800000000000000
+      internalID: -2794829398912230756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_20
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 657
+        width: 85
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af641e4664b48450800000000000000
+      internalID: 6090190947601379241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 653
+        width: 112
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8583cd522b386e3b0800000000000000
+      internalID: -5483550695114393512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_22
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 665
+        width: 110
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94418531224fe3f20800000000000000
+      internalID: 3404426795529278537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_23
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 669
+        width: 90
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478722894952ff360800000000000000
+      internalID: 7205519248953866356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_24
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 671
+        width: 109
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff361d6ca5336be20800000000000000
+      internalID: 3365934236481709055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_25
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 669
+        width: 126
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d177d08328255bd0800000000000000
+      internalID: -2642161473432358443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_26
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 671
+        width: 115
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdba23dcc8da53f0800000000000000
+      internalID: -911177600361382405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_27
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 673
+        width: 130
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2467a8f2f46bdc0800000000000000
+      internalID: -3623621784567921938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_28
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 444
+        width: 88
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d947c70812e91a8e0800000000000000
+      internalID: -1683890918933105507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 604
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563711c37f75f9040800000000000000
+      internalID: 4656537259100697445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_30
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 450
+        width: 99
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162fb209ec34d0d40800000000000000
+      internalID: 5552168470078812769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_31
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 496
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c18e4e5d7eda1ed0800000000000000
+      internalID: -2442395217860591161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_32
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 452
+        width: 72
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a7f2d1c56b1d300800000000000000
+      internalID: 275201558989208131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_33
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 446
+        width: 109
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33df66fdfb77b2ed0800000000000000
+      internalID: -2437723107320464077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_34
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 450
+        width: 76
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20340764663b88e70800000000000000
+      internalID: 9117734697461367554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_35
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 450
+        width: 70
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3771793cd35115000800000000000000
+      internalID: 22822828132210547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_36
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 456
+        width: 115
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a482ec57fa3ad8300800000000000000
+      internalID: 256040727821035594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_37
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 454
+        width: 122
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf8241fefbcea910800000000000000
+      internalID: 1850640792725655466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_38
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 512
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199e82e6d6a9af270800000000000000
+      internalID: 8285104259291736465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_39
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 488
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3c02f7cc0c7e460800000000000000
+      internalID: 7270992107951670233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_40
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 478
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28868a90fc6f0fb80800000000000000
+      internalID: -8362913138946316158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_41
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 279
+        width: 71
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ceca5b8e5094b770800000000000000
+      internalID: 8625677922060652229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_42
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 289
+        width: 112
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde1900a6e1f7d840800000000000000
+      internalID: 5248929863553326811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_43
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 223
+        width: 82
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97f7fb84327a3240800000000000000
+      internalID: 4772252325164611484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_44
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 295
+        width: 92
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2051aead61d0c10800000000000000
+      internalID: 2021296937245147877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_45
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 259
+        width: 76
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b1f8510e307c060800000000000000
+      internalID: 6973546808975760142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_46
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 356
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964193326e9ede210800000000000000
+      internalID: 1364003436805821545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_47
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 257
+        width: 136
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8688ba93b382a90800000000000000
+      internalID: -7338550473923204912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_48
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 273
+        width: 78
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3913da9d9dd736340800000000000000
+      internalID: 4855863197848908179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 104
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9691035e86f4efdf0800000000000000
+      internalID: -144590826088949399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 81
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ade4dc795ee00160800000000000000
+      internalID: 6989848689792839075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_51
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 34
+        width: 73
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60e0033ef8aa6260800000000000000
+      internalID: 7091666372979122283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_52
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 14
+        width: 67
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3203bd31bdddea160800000000000000
+      internalID: 7038807200627372067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_53
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 0
+        width: 74
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8d5d5259f352720800000000000000
+      internalID: 2820730651434932470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_54
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 72
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce14fe51488074d0800000000000000
+      internalID: -3138859125929926971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_55
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 22
+        width: 140
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2b16144ef982340800000000000000
+      internalID: 4839293602307879609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_56
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 24
+        width: 99
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74c865abf0258d30800000000000000
+      internalID: 4432985673400108157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alan_noair_maybe_57
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 22
+        width: 78
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f663ac500e1fb20800000000000000
+      internalID: 3166558328490192797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      alan_noair_maybe_0: 7541404413625640283
+      alan_noair_maybe_1: -1357810563937742211
+      alan_noair_maybe_10: 8496999671146256522
+      alan_noair_maybe_11: -3351632262837987957
+      alan_noair_maybe_12: 422519031780795957
+      alan_noair_maybe_13: 1192924708873560851
+      alan_noair_maybe_14: -5661631361093025263
+      alan_noair_maybe_15: 590249279672054398
+      alan_noair_maybe_16: -6849139604206909655
+      alan_noair_maybe_17: -8353660035735853348
+      alan_noair_maybe_18: 5490445477609017423
+      alan_noair_maybe_19: -2794829398912230756
+      alan_noair_maybe_2: 6759038137840995577
+      alan_noair_maybe_20: 6090190947601379241
+      alan_noair_maybe_21: -5483550695114393512
+      alan_noair_maybe_22: 3404426795529278537
+      alan_noair_maybe_23: 7205519248953866356
+      alan_noair_maybe_24: 3365934236481709055
+      alan_noair_maybe_25: -2642161473432358443
+      alan_noair_maybe_26: -911177600361382405
+      alan_noair_maybe_27: -3623621784567921938
+      alan_noair_maybe_28: -1683890918933105507
+      alan_noair_maybe_29: 4656537259100697445
+      alan_noair_maybe_3: 7292458589508164294
+      alan_noair_maybe_30: 5552168470078812769
+      alan_noair_maybe_31: -2442395217860591161
+      alan_noair_maybe_32: 275201558989208131
+      alan_noair_maybe_33: -2437723107320464077
+      alan_noair_maybe_34: 9117734697461367554
+      alan_noair_maybe_35: 22822828132210547
+      alan_noair_maybe_36: 256040727821035594
+      alan_noair_maybe_37: 1850640792725655466
+      alan_noair_maybe_38: 8285104259291736465
+      alan_noair_maybe_39: 7270992107951670233
+      alan_noair_maybe_4: 7060292197971717304
+      alan_noair_maybe_40: -8362913138946316158
+      alan_noair_maybe_41: 8625677922060652229
+      alan_noair_maybe_42: 5248929863553326811
+      alan_noair_maybe_43: 4772252325164611484
+      alan_noair_maybe_44: 2021296937245147877
+      alan_noair_maybe_45: 6973546808975760142
+      alan_noair_maybe_46: 1364003436805821545
+      alan_noair_maybe_47: -7338550473923204912
+      alan_noair_maybe_48: 4855863197848908179
+      alan_noair_maybe_49: -144590826088949399
+      alan_noair_maybe_5: 5682025839970347318
+      alan_noair_maybe_50: 6989848689792839075
+      alan_noair_maybe_51: 7091666372979122283
+      alan_noair_maybe_52: 7038807200627372067
+      alan_noair_maybe_53: 2820730651434932470
+      alan_noair_maybe_54: -3138859125929926971
+      alan_noair_maybe_55: 4839293602307879609
+      alan_noair_maybe_56: 4432985673400108157
+      alan_noair_maybe_57: 3166558328490192797
+      alan_noair_maybe_6: 239060949188373520
+      alan_noair_maybe_7: 8703701425082515458
+      alan_noair_maybe_8: 8332640424532075258
+      alan_noair_maybe_9: 3876240415525270454
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

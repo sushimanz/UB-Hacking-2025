@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - ground
+  - hurtbox
   layers:
   - Default
   - TransparentFX
