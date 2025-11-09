@@ -425,7 +425,7 @@ MonoBehaviour:
     damage: 15
     knockbackForce: 2
     knockbackUpward: 1.5
-    stunDuration: 0.5
+    stunDuration: 0.1
     hitstopDuration: 0.1
     attackHeight: 0
 --- !u!95 &7046012253803783662

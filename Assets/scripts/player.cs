@@ -158,7 +158,7 @@ public class player : MonoBehaviour
     [Tooltip("Speed of the projectile")]
     public float projectileSpeed = 10f;
     [Tooltip("Properties for special attack/projectile")]
-    public AttackProperties specialProperties = new AttackProperties(15f, 2f, 1.5f, 0.5f, 0.1f, AttackHeight.Normal);
+    public AttackProperties specialProperties = new AttackProperties(15f, 2f, 1.5f, 0.1f, 0.1f, AttackHeight.Normal);
 
     private void OnEnable()
     {
