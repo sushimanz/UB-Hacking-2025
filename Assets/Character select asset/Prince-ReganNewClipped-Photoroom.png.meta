@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 74de43f426aa6f849abb913b8478f351
+guid: a7d0b446eacb16d47b627a29b8ef03a7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8415380345359702142
-    second: IMG_8382-removebg-preview_0
+      213: -2719072683825737247
+    second: Prince-ReganNewClipped-Photoroom_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_8382-removebg-preview_0
+      name: Prince-ReganNewClipped-Photoroom_0
       rect:
         serializedVersion: 2
-        x: 87
+        x: 10
         y: 0
-        width: 236
-        height: 545
+        width: 255
+        height: 309
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 287e7099920963b80800000000000000
-      internalID: -8415380345359702142
+      spriteID: 1e15912ecc9e34ad0800000000000000
+      internalID: -2719072683825737247
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_8382-removebg-preview_0: -8415380345359702142
+      Prince-ReganNewClipped-Photoroom_0: -2719072683825737247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
