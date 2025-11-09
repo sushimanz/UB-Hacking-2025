@@ -356,7 +356,8 @@ public class player : MonoBehaviour
         }
 
         // If jump requested and grounded, perform jump depending on available physics
-        if (jumpPressed && grounded)
+        // Don't allow jumping while punching or heavy punching
+        if (jumpPressed && grounded && !isPunching && !isHeavyPunching)
         {
             DoJump();
             // after jump, consider not grounded until physics or kinematic update
