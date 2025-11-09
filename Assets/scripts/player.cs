@@ -888,6 +888,12 @@ public class player : MonoBehaviour
             health -= blockedDamage;
             Debug.Log(gameObject.name + " blocked! Took " + blockedDamage + " damage. Health: " + health);
             
+            // Trigger block animation
+            if (animator != null)
+            {
+                animator.SetTrigger("block");
+            }
+            
             // Apply minimal knockback when blocking
             if (rb2D != null)
             {

@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 190862224}
   - component: {fileID: 190862223}
+  - component: {fileID: 190862225}
   m_Layer: 0
   m_Name: inputMan
   m_TagString: Untagged
@@ -151,7 +152,7 @@ MonoBehaviour:
   m_NotificationBehavior: 0
   m_MaxPlayerCount: -1
   m_AllowJoining: 1
-  m_JoinBehavior: 0
+  m_JoinBehavior: 2
   m_PlayerJoinedEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -195,6 +196,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &190862225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190862222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afded01b0cd8eaf499c5a82f0cc24a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSpawner
+  playerInputManager: {fileID: 190862223}
+  spawnOnStart: 1
+  player1SpawnPosition: {x: -5, y: 0, z: 0}
+  player2SpawnPosition: {x: 5, y: 0, z: 0}
+  cameraScript: {fileID: 519420033}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
