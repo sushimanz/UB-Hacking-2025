@@ -63,8 +63,12 @@ public struct HitInfo
 
 public class player : MonoBehaviour
 {
+    [Header("Player Setup")]
+    [Tooltip("Player index: 0 for Player 1, 1 for Player 2, etc.")]
+    public int playerIndex = 0;
+
     [Header("Input System")]
-    [Tooltip("Assign the Move action (Vector2) from your Input Actions asset. Uses x component for left/right, y component for crouch.")]
+    [Tooltip("If using PlayerInputManager, leave these empty. Otherwise assign Input Action References.")]
     public InputActionReference moveAction;
     [Tooltip("Assign the Jump action (button) from your Input Actions asset.")]
     public InputActionReference jumpAction;
@@ -110,6 +114,8 @@ public class player : MonoBehaviour
     public AttackProperties punchProperties = new AttackProperties(10f, 1f, 2f, 0.5f, 0.1f, AttackHeight.Normal);
     [Tooltip("Properties for heavy punch attack")]
     public AttackProperties heavyPunchProperties = new AttackProperties(20f, 2f, 3f, 0.8f, 0.15f, AttackHeight.High);
+    [Tooltip("Properties for low attack")]
+    public AttackProperties lowProperties = new AttackProperties(8f, 1.2f, 0.5f, 0.4f, 0.08f, AttackHeight.Low);
     [Tooltip("Properties for low kick attack")]
     public AttackProperties lowKickProperties = new AttackProperties(12f, 1.5f, 1f, 0.6f, 0.1f, AttackHeight.Low);
     [Tooltip("Properties for air kick attack")]
@@ -206,16 +212,64 @@ public class player : MonoBehaviour
     private HashSet<string> usedAttacksInCombo = new HashSet<string>();
     // track if opponent was stunned last frame to detect when they exit stun
     private bool opponentWasStunnedLastFrame = false;
+    // PlayerInput component for handling device assignment
+    private PlayerInput playerInput;
+    // Input actions from PlayerInput (used if InputActionReferences are not assigned)
+    private InputAction playerMoveAction;
+    private InputAction playerJumpAction;
+    private InputAction playerAttackAction;
+    private InputAction playerHeavyAttackAction;
+    private InputAction playerSpecialAttackAction;
 
     // Update is used for kinematic movement (non-physics). If you use Rigidbody, consider moving logic to FixedUpdate and use velocity or MovePosition.
     void Start()
     {
+        // Try to get PlayerInput component (used with PlayerInputManager)
+        playerInput = GetComponent<PlayerInput>();
+        
+        // If PlayerInput exists, get actions from it instead of InputActionReferences
+        if (playerInput != null)
+        {
+            var actionMap = playerInput.currentActionMap;
+            playerMoveAction = actionMap.FindAction("Move");
+            playerJumpAction = actionMap.FindAction("Jump");
+            playerAttackAction = actionMap.FindAction("Attack");
+            playerHeavyAttackAction = actionMap.FindAction("HAttack");
+            playerSpecialAttackAction = actionMap.FindAction("Special");
+        }
+        
+        // Find opponent player
+        FindOpponent();
+        
         // Ground level will be set when player first stops moving vertically
         
         // Store the original sprite color
         if (spriteRenderer != null)
         {
             originalSpriteColor = spriteRenderer.color;
+        }
+    }
+
+    void FindOpponent()
+    {
+        // Find all player objects in the scene
+        player[] allPlayers = FindObjectsByType<player>(FindObjectsSortMode.None);
+        
+        // Find the other player (not this one)
+        foreach (player p in allPlayers)
+        {
+            if (p != this)
+            {
+                opponent = p;
+                Debug.Log(gameObject.name + " found opponent: " + opponent.gameObject.name);
+                break;
+            }
+        }
+        
+        // If no opponent found yet, try again next frame
+        if (opponent == null)
+        {
+            Invoke(nameof(FindOpponent), 0.1f);
         }
     }
 
@@ -282,8 +336,14 @@ public class player : MonoBehaviour
         float horizontal = 0f;
         float vertical = 0f;
 
-        // Read from assigned Input System action (expects Vector2)
-        if (moveAction != null && moveAction.action != null)
+        // Read from PlayerInput actions if available, otherwise use InputActionReferences
+        if (playerInput != null && playerMoveAction != null)
+        {
+            Vector2 v = playerMoveAction.ReadValue<Vector2>();
+            horizontal = v.x;
+            vertical = v.y;
+        }
+        else if (moveAction != null && moveAction.action != null)
         {
             Vector2 v = moveAction.action.ReadValue<Vector2>();
             horizontal = v.x;
@@ -340,7 +400,14 @@ public class player : MonoBehaviour
 
         // --- Jump input handling ---
         bool jumpPressed = false;
-        if (jumpAction != null && jumpAction.action != null)
+        if (playerInput != null && playerJumpAction != null)
+        {
+            jumpPressed = playerJumpAction.triggered;
+            float val = 0f;
+            try { val = playerJumpAction.ReadValue<float>(); } catch { val = 0f; }
+            jumpHeld = val > 0.5f;
+        }
+        else if (jumpAction != null && jumpAction.action != null)
         {
             jumpPressed = jumpAction.action.triggered;
             float val = 0f;
@@ -350,21 +417,33 @@ public class player : MonoBehaviour
 
         // --- Attack input handling ---
         bool attackPressed = false;
-        if (attackAction != null && attackAction.action != null)
+        if (playerInput != null && playerAttackAction != null)
+        {
+            attackPressed = playerAttackAction.triggered;
+        }
+        else if (attackAction != null && attackAction.action != null)
         {
             attackPressed = attackAction.action.triggered;
         }
 
         // --- Heavy Attack input handling ---
         bool heavyAttackPressed = false;
-        if (heavyAttackAction != null && heavyAttackAction.action != null)
+        if (playerInput != null && playerHeavyAttackAction != null)
+        {
+            heavyAttackPressed = playerHeavyAttackAction.triggered;
+        }
+        else if (heavyAttackAction != null && heavyAttackAction.action != null)
         {
             heavyAttackPressed = heavyAttackAction.action.triggered;
         }
 
         // --- Special Attack input handling ---
         bool specialAttackPressed = false;
-        if (specialAttackAction != null && specialAttackAction.action != null)
+        if (playerInput != null && playerSpecialAttackAction != null)
+        {
+            specialAttackPressed = playerSpecialAttackAction.triggered;
+        }
+        else if (specialAttackAction != null && specialAttackAction.action != null)
         {
             specialAttackPressed = specialAttackAction.action.triggered;
         }
@@ -375,6 +454,7 @@ public class player : MonoBehaviour
         // Check if currently attacking (punch or air kick)
         bool isPunching = false;
         bool isHeavyPunching = false;
+        bool isLowAttacking = false;
         bool isLowKicking = false;
         bool isAirKicking = false;
         bool isSpecialAttacking = false;
@@ -382,6 +462,7 @@ public class player : MonoBehaviour
         {
             isPunching = animator.GetCurrentAnimatorStateInfo(0).IsName("punch");
             isHeavyPunching = animator.GetCurrentAnimatorStateInfo(0).IsName("Hpunch");
+            isLowAttacking = animator.GetCurrentAnimatorStateInfo(0).IsName("low");
             isLowKicking = animator.GetCurrentAnimatorStateInfo(0).IsName("lowKick");
             isAirKicking = animator.GetCurrentAnimatorStateInfo(0).IsName("airKick");
             isSpecialAttacking = animator.GetCurrentAnimatorStateInfo(0).IsName("special");
@@ -391,16 +472,16 @@ public class player : MonoBehaviour
         {
             if (grounded)
             {
-                // Check if crouching - trigger low kick instead of punch
+                // Check if crouching - trigger low attack instead of punch
                 if (isCrouching)
                 {
-                    // Only allow low kick if it hasn't been used in this combo
-                    if (!usedAttacksInCombo.Contains("lowKick"))
+                    // Only allow low attack if it hasn't been used in this combo
+                    if (!usedAttacksInCombo.Contains("low"))
                     {
-                        // Trigger low kick from crouch
+                        // Trigger low attack from crouch
                         animator.SetBool("walk", false);
-                        animator.SetTrigger("lowKick");
-                        currentAttackType = "lowKick";
+                        animator.SetTrigger("low");
+                        currentAttackType = "low";
                     }
                 }
                 else
@@ -429,13 +510,28 @@ public class player : MonoBehaviour
 
         if (heavyAttackPressed && animator != null && grounded)
         {
-            // Only allow heavy punch if it hasn't been used in this combo
-            if (!usedAttacksInCombo.Contains("heavyPunch"))
+            // Check if crouching - trigger lowKick instead of heavy punch
+            if (isCrouching)
             {
-                // Trigger heavy punch when grounded
-                animator.SetBool("walk", false);
-                animator.SetTrigger("Hpunch");
-                currentAttackType = "heavyPunch";
+                // Only allow lowKick if it hasn't been used in this combo
+                if (!usedAttacksInCombo.Contains("lowKick"))
+                {
+                    // Trigger lowKick from crouch
+                    animator.SetBool("walk", false);
+                    animator.SetTrigger("lowKick");
+                    currentAttackType = "lowKick";
+                }
+            }
+            else
+            {
+                // Only allow heavy punch if it hasn't been used in this combo
+                if (!usedAttacksInCombo.Contains("heavyPunch"))
+                {
+                    // Trigger heavy punch when grounded
+                    animator.SetBool("walk", false);
+                    animator.SetTrigger("Hpunch");
+                    currentAttackType = "heavyPunch";
+                }
             }
         }
 
@@ -452,17 +548,19 @@ public class player : MonoBehaviour
             currentAttackType = "punch";
         else if (isHeavyPunching && currentAttackType != "heavyPunch")
             currentAttackType = "heavyPunch";
+        else if (isLowAttacking && currentAttackType != "low")
+            currentAttackType = "low";
         else if (isLowKicking && currentAttackType != "lowKick")
             currentAttackType = "lowKick";
         else if (isAirKicking && currentAttackType != "airKick")
             currentAttackType = "airKick";
         else if (isSpecialAttacking && currentAttackType != "special")
             currentAttackType = "special";
-        else if (!isPunching && !isHeavyPunching && !isLowKicking && !isAirKicking && !isSpecialAttacking)
+        else if (!isPunching && !isHeavyPunching && !isLowAttacking && !isLowKicking && !isAirKicking && !isSpecialAttacking)
             currentAttackType = "";
 
         // Continuously check for attack hits during attack animations
-        if (isPunching || isHeavyPunching || isLowKicking || isAirKicking)
+        if (isPunching || isHeavyPunching || isLowAttacking || isLowKicking || isAirKicking)
         {
             CheckAttackHit();
         }
@@ -478,7 +576,7 @@ public class player : MonoBehaviour
         }
 
         // Track state changes
-        bool isAttacking = isPunching || isHeavyPunching || isLowKicking || isAirKicking || isSpecialAttacking;
+        bool isAttacking = isPunching || isHeavyPunching || isLowAttacking || isLowKicking || isAirKicking || isSpecialAttacking;
         if (isAttacking && !wasAttacking)
         {
             // Clear the hit list at the start of a new attack
@@ -516,8 +614,8 @@ public class player : MonoBehaviour
         if (rb2D != null)
         {
             Vector2 vel2 = rb2D.linearVelocity;
-            // Stop horizontal movement when punching, heavy punching, low kicking, or special attacking, but keep velocity during air kick
-            if (isPunching || isHeavyPunching || isLowKicking || isSpecialAttacking)
+            // Stop horizontal movement when punching, heavy punching, low attacking, low kicking, or special attacking, but keep velocity during air kick
+            if (isPunching || isHeavyPunching || isLowAttacking || isLowKicking || isSpecialAttacking)
             {
                 vel2.x = 0f;
             }
@@ -704,6 +802,10 @@ public class player : MonoBehaviour
             else if (currentAttackType == "heavyPunch")
             {
                 properties = heavyPunchProperties;
+            }
+            else if (currentAttackType == "low")
+            {
+                properties = lowProperties;
             }
             else if (currentAttackType == "lowKick")
             {
