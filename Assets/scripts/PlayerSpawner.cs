@@ -11,9 +11,9 @@ public class PlayerSpawner : MonoBehaviour
     [Tooltip("Spawn both players immediately on scene load")]
     public bool spawnOnStart = true;
     [Tooltip("Player 1 spawn position")]
-    public Vector3 player1SpawnPosition = new Vector3(-5f, 0f, 0f);
+    public Vector3 player1SpawnPosition = new Vector3(-3f, 0f, 0f);
     [Tooltip("Player 2 spawn position")]
-    public Vector3 player2SpawnPosition = new Vector3(5f, 0f, 0f);
+    public Vector3 player2SpawnPosition = new Vector3(3f, 0f, 0f);
     
     [Header("Camera Setup")]
     [Tooltip("Camera script to update with player references")]
