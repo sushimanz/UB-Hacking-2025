@@ -1,0 +1,1651 @@
+fileFormatVersion: 2
+guid: 71267318e09792143a919697b7348fe7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7714457251356431155
+    second: No_Air_Ethan_0
+  - first:
+      213: 2787683306750600253
+    second: No_Air_Ethan_1
+  - first:
+      213: -5033556821187441529
+    second: No_Air_Ethan_2
+  - first:
+      213: -734092534887846737
+    second: No_Air_Ethan_3
+  - first:
+      213: -5953381987621509956
+    second: No_Air_Ethan_4
+  - first:
+      213: 6988903898147505408
+    second: No_Air_Ethan_5
+  - first:
+      213: -809004417519036288
+    second: No_Air_Ethan_6
+  - first:
+      213: -3006179546134089383
+    second: No_Air_Ethan_7
+  - first:
+      213: 738629759857963361
+    second: No_Air_Ethan_8
+  - first:
+      213: 6129949168608909229
+    second: No_Air_Ethan_9
+  - first:
+      213: -124506777866760275
+    second: No_Air_Ethan_10
+  - first:
+      213: 2359175972771601697
+    second: No_Air_Ethan_11
+  - first:
+      213: 6276774780825810404
+    second: No_Air_Ethan_12
+  - first:
+      213: 6645117207225270270
+    second: No_Air_Ethan_13
+  - first:
+      213: 8635166700799456090
+    second: No_Air_Ethan_14
+  - first:
+      213: -6130382556803226963
+    second: No_Air_Ethan_15
+  - first:
+      213: 594412175731332068
+    second: No_Air_Ethan_16
+  - first:
+      213: 7606460813177444965
+    second: No_Air_Ethan_17
+  - first:
+      213: 5340578621224164686
+    second: No_Air_Ethan_18
+  - first:
+      213: -6355004916682946973
+    second: No_Air_Ethan_19
+  - first:
+      213: 7695487237426864387
+    second: No_Air_Ethan_20
+  - first:
+      213: 2288477958613445169
+    second: No_Air_Ethan_21
+  - first:
+      213: -3470672813138518811
+    second: No_Air_Ethan_22
+  - first:
+      213: 4334781788720246071
+    second: No_Air_Ethan_23
+  - first:
+      213: 8680028916147700924
+    second: No_Air_Ethan_24
+  - first:
+      213: 8978485930975613342
+    second: No_Air_Ethan_25
+  - first:
+      213: 58244461947849828
+    second: No_Air_Ethan_26
+  - first:
+      213: -7688736355711071966
+    second: No_Air_Ethan_27
+  - first:
+      213: 8813345491407536017
+    second: No_Air_Ethan_28
+  - first:
+      213: -1560650243456867588
+    second: No_Air_Ethan_29
+  - first:
+      213: -8945334935933894180
+    second: No_Air_Ethan_30
+  - first:
+      213: -326763302773228980
+    second: No_Air_Ethan_31
+  - first:
+      213: -3047379278254436263
+    second: No_Air_Ethan_32
+  - first:
+      213: 1367413405119900744
+    second: No_Air_Ethan_33
+  - first:
+      213: 6529879843466378290
+    second: No_Air_Ethan_34
+  - first:
+      213: -455987879442558252
+    second: No_Air_Ethan_35
+  - first:
+      213: 2331461947802003700
+    second: No_Air_Ethan_36
+  - first:
+      213: -5388480518218124993
+    second: No_Air_Ethan_37
+  - first:
+      213: 5478839150520723158
+    second: No_Air_Ethan_38
+  - first:
+      213: -7903080974437873362
+    second: No_Air_Ethan_39
+  - first:
+      213: -1644546975444196483
+    second: No_Air_Ethan_40
+  - first:
+      213: -7849611854638235169
+    second: No_Air_Ethan_41
+  - first:
+      213: 336187048231671248
+    second: No_Air_Ethan_42
+  - first:
+      213: -347870217193519219
+    second: No_Air_Ethan_43
+  - first:
+      213: -6061728998174924787
+    second: No_Air_Ethan_44
+  - first:
+      213: -8023660952220596269
+    second: No_Air_Ethan_45
+  - first:
+      213: 125523619231353224
+    second: No_Air_Ethan_46
+  - first:
+      213: 4892258930938057859
+    second: No_Air_Ethan_47
+  - first:
+      213: -1204542049797518957
+    second: No_Air_Ethan_48
+  - first:
+      213: 252505682574193268
+    second: No_Air_Ethan_49
+  - first:
+      213: -4266915823412875190
+    second: No_Air_Ethan_50
+  - first:
+      213: 8585327193375999392
+    second: No_Air_Ethan_51
+  - first:
+      213: 7829673369502879688
+    second: No_Air_Ethan_52
+  - first:
+      213: 5352479394773797993
+    second: No_Air_Ethan_53
+  - first:
+      213: 7551736417180648752
+    second: No_Air_Ethan_54
+  - first:
+      213: 1550112778703117731
+    second: No_Air_Ethan_55
+  - first:
+      213: 3517556406319064963
+    second: No_Air_Ethan_56
+  - first:
+      213: -113716001481623001
+    second: No_Air_Ethan_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: No_Air_Ethan_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1078
+        width: 89
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcca6f9b00eb0f490800000000000000
+      internalID: -7714457251356431155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1067
+        width: 188
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34e72d9237dfa620800000000000000
+      internalID: 2787683306750600253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1077
+        width: 192
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cc0647db6352ab0800000000000000
+      internalID: -5033556821187441529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1075
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac6eb99abaffc5f0800000000000000
+      internalID: -734092534887846737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_4
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1151
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb46c97ef96516da0800000000000000
+      internalID: -5953381987621509956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_5
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1069
+        width: 122
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005cc6a01139df060800000000000000
+      internalID: 6988903898147505408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_6
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1071
+        width: 109
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0885e00c4c6d5c4f0800000000000000
+      internalID: -809004417519036288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_7
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1071
+        width: 100
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951f1a551a7e746d0800000000000000
+      internalID: -3006179546134089383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 879
+        width: 74
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161bdd86ad3204a00800000000000000
+      internalID: 738629759857963361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_9
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 857
+        width: 114
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7922e7a44f11550800000000000000
+      internalID: 6129949168608909229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1033
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf8f15ceb9a54ef0800000000000000
+      internalID: -124506777866760275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 869
+        width: 73
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d10bb3c0a7db020800000000000000
+      internalID: 2359175972771601697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_12
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 873
+        width: 114
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5b04a48659b1750800000000000000
+      internalID: 6276774780825810404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_13
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 873
+        width: 75
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff7f7384e2383c50800000000000000
+      internalID: 6645117207225270270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_14
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 867
+        width: 76
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53fe610d5646d770800000000000000
+      internalID: 8635166700799456090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_15
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 863
+        width: 66
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da22e747b818ceaa0800000000000000
+      internalID: -6130382556803226963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_16
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 863
+        width: 65
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e312a879b6cf3800800000000000000
+      internalID: 594412175731332068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_17
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 865
+        width: 64
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ade5f0fc39f8960800000000000000
+      internalID: 7606460813177444965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 843
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d9c1dd5fb8d1a40800000000000000
+      internalID: 5340578621224164686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 667
+        width: 99
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3668043d2bc7ec7a0800000000000000
+      internalID: -6355004916682946973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_20
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 657
+        width: 85
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3016168bedcdbca60800000000000000
+      internalID: 7695487237426864387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 653
+        width: 112
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a2777149e42cf10800000000000000
+      internalID: 2288477958613445169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_22
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 665
+        width: 110
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecd5410771b5dfc0800000000000000
+      internalID: -3470672813138518811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_23
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 669
+        width: 85
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73da087f11d382c30800000000000000
+      internalID: 4334781788720246071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_24
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 671
+        width: 106
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb44a1b7f48a57870800000000000000
+      internalID: 8680028916147700924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_25
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 669
+        width: 125
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91d4a8526df99c70800000000000000
+      internalID: 8978485930975613342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_26
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 671
+        width: 115
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c0980970deec000800000000000000
+      internalID: 58244461947849828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_27
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 673
+        width: 130
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229c53a650f1c4590800000000000000
+      internalID: -7688736355711071966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_28
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 444
+        width: 88
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ff222870b4f4a70800000000000000
+      internalID: 8813345491407536017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 604
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2602c4fd4775ae0800000000000000
+      internalID: -1560650243456867588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_30
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 450
+        width: 99
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1c4ca2549cbd380800000000000000
+      internalID: -8945334935933894180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_31
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 496
+        width: 72
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a7194e18a177bf0800000000000000
+      internalID: -326763302773228980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_32
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 452
+        width: 72
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95012cf21b885b5d0800000000000000
+      internalID: -3047379278254436263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_33
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 446
+        width: 109
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c67414f370af210800000000000000
+      internalID: 1367413405119900744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_34
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 450
+        width: 76
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cfbcfee1bce9a50800000000000000
+      internalID: 6529879843466378290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_35
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 450
+        width: 70
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d251f780710ca9f0800000000000000
+      internalID: -455987879442558252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_36
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 456
+        width: 115
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f82416f9440b5020800000000000000
+      internalID: 2331461947802003700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_37
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 454
+        width: 122
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31fe70a4854835b0800000000000000
+      internalID: -5388480518218124993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_38
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 512
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d66a44ed2fb80c40800000000000000
+      internalID: 5478839150520723158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_39
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 488
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e298b7fd9bd925290800000000000000
+      internalID: -7903080974437873362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_40
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 478
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73a4303d356d29e0800000000000000
+      internalID: -1644546975444196483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_41
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 275
+        width: 71
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1c7937b93901390800000000000000
+      internalID: -7849611854638235169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_42
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 289
+        width: 111
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d59fe3d6506aa400800000000000000
+      internalID: 336187048231671248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_43
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 223
+        width: 82
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d870e3c61ed1c2bf0800000000000000
+      internalID: -347870217193519219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_44
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 295
+        width: 92
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d006913b79960eba0800000000000000
+      internalID: -6061728998174924787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_45
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 259
+        width: 76
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d708b800ea36a090800000000000000
+      internalID: -8023660952220596269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_46
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 356
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889c43f0113fdb100800000000000000
+      internalID: 125523619231353224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_47
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 257
+        width: 136
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3849bcfc39bc4e340800000000000000
+      internalID: 4892258930938057859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_48
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 273
+        width: 78
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3994ccc336b984fe0800000000000000
+      internalID: -1204542049797518957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 109
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4723a999494118300800000000000000
+      internalID: 252505682574193268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 81
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a407bfa6aaed8c4c0800000000000000
+      internalID: -4266915823412875190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_51
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 34
+        width: 73
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a58da96895352770800000000000000
+      internalID: 8585327193375999392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_52
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 14
+        width: 67
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf0e88327698ac60800000000000000
+      internalID: 7829673369502879688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_53
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 0
+        width: 74
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c0711a6a3d74a40800000000000000
+      internalID: 5352479394773797993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_54
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 72
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0350f67b2482dc860800000000000000
+      internalID: 7551736417180648752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_55
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 22
+        width: 140
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad94600c5b138510800000000000000
+      internalID: 1550112778703117731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_56
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 24
+        width: 99
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3872c0c2aeed0d030800000000000000
+      internalID: 3517556406319064963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: No_Air_Ethan_57
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 22
+        width: 78
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72af86e26effb6ef0800000000000000
+      internalID: -113716001481623001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      No_Air_Ethan_0: -7714457251356431155
+      No_Air_Ethan_1: 2787683306750600253
+      No_Air_Ethan_10: -124506777866760275
+      No_Air_Ethan_11: 2359175972771601697
+      No_Air_Ethan_12: 6276774780825810404
+      No_Air_Ethan_13: 6645117207225270270
+      No_Air_Ethan_14: 8635166700799456090
+      No_Air_Ethan_15: -6130382556803226963
+      No_Air_Ethan_16: 594412175731332068
+      No_Air_Ethan_17: 7606460813177444965
+      No_Air_Ethan_18: 5340578621224164686
+      No_Air_Ethan_19: -6355004916682946973
+      No_Air_Ethan_2: -5033556821187441529
+      No_Air_Ethan_20: 7695487237426864387
+      No_Air_Ethan_21: 2288477958613445169
+      No_Air_Ethan_22: -3470672813138518811
+      No_Air_Ethan_23: 4334781788720246071
+      No_Air_Ethan_24: 8680028916147700924
+      No_Air_Ethan_25: 8978485930975613342
+      No_Air_Ethan_26: 58244461947849828
+      No_Air_Ethan_27: -7688736355711071966
+      No_Air_Ethan_28: 8813345491407536017
+      No_Air_Ethan_29: -1560650243456867588
+      No_Air_Ethan_3: -734092534887846737
+      No_Air_Ethan_30: -8945334935933894180
+      No_Air_Ethan_31: -326763302773228980
+      No_Air_Ethan_32: -3047379278254436263
+      No_Air_Ethan_33: 1367413405119900744
+      No_Air_Ethan_34: 6529879843466378290
+      No_Air_Ethan_35: -455987879442558252
+      No_Air_Ethan_36: 2331461947802003700
+      No_Air_Ethan_37: -5388480518218124993
+      No_Air_Ethan_38: 5478839150520723158
+      No_Air_Ethan_39: -7903080974437873362
+      No_Air_Ethan_4: -5953381987621509956
+      No_Air_Ethan_40: -1644546975444196483
+      No_Air_Ethan_41: -7849611854638235169
+      No_Air_Ethan_42: 336187048231671248
+      No_Air_Ethan_43: -347870217193519219
+      No_Air_Ethan_44: -6061728998174924787
+      No_Air_Ethan_45: -8023660952220596269
+      No_Air_Ethan_46: 125523619231353224
+      No_Air_Ethan_47: 4892258930938057859
+      No_Air_Ethan_48: -1204542049797518957
+      No_Air_Ethan_49: 252505682574193268
+      No_Air_Ethan_5: 6988903898147505408
+      No_Air_Ethan_50: -4266915823412875190
+      No_Air_Ethan_51: 8585327193375999392
+      No_Air_Ethan_52: 7829673369502879688
+      No_Air_Ethan_53: 5352479394773797993
+      No_Air_Ethan_54: 7551736417180648752
+      No_Air_Ethan_55: 1550112778703117731
+      No_Air_Ethan_56: 3517556406319064963
+      No_Air_Ethan_57: -113716001481623001
+      No_Air_Ethan_6: -809004417519036288
+      No_Air_Ethan_7: -3006179546134089383
+      No_Air_Ethan_8: 738629759857963361
+      No_Air_Ethan_9: 6129949168608909229
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,6 +2,14 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
 
+// Attack height type enumeration
+public enum AttackHeight
+{
+    Normal,
+    Low,
+    High
+}
+
 // Attack properties structure
 [System.Serializable]
 public struct AttackProperties
@@ -16,14 +24,17 @@ public struct AttackProperties
     public float stunDuration;
     [Tooltip("Hitstop duration (seconds)")]
     public float hitstopDuration;
+    [Tooltip("Attack height type (Normal, Low, or High)")]
+    public AttackHeight attackHeight;
 
-    public AttackProperties(float damage, float knockbackForce, float knockbackUpward, float stunDuration, float hitstopDuration)
+    public AttackProperties(float damage, float knockbackForce, float knockbackUpward, float stunDuration, float hitstopDuration, AttackHeight attackHeight = AttackHeight.Normal)
     {
         this.damage = damage;
         this.knockbackForce = knockbackForce;
         this.knockbackUpward = knockbackUpward;
         this.stunDuration = stunDuration;
         this.hitstopDuration = hitstopDuration;
+        this.attackHeight = attackHeight;
     }
 }
 
@@ -36,8 +47,9 @@ public struct HitInfo
     public float knockbackUpwardForce;
     public float stunDuration;
     public float hitstopDuration;
+    public AttackHeight attackHeight;
 
-    public HitInfo(float damage, Vector2 knockbackDirection, float knockbackForce, float knockbackUpwardForce, float stunDuration, float hitstopDuration)
+    public HitInfo(float damage, Vector2 knockbackDirection, float knockbackForce, float knockbackUpwardForce, float stunDuration, float hitstopDuration, AttackHeight attackHeight)
     {
         this.damage = damage;
         this.knockbackDirection = knockbackDirection;
@@ -45,6 +57,7 @@ public struct HitInfo
         this.knockbackUpwardForce = knockbackUpwardForce;
         this.stunDuration = stunDuration;
         this.hitstopDuration = hitstopDuration;
+        this.attackHeight = attackHeight;
     }
 }
 
@@ -59,6 +72,8 @@ public class player : MonoBehaviour
     public InputActionReference attackAction;
     [Tooltip("Assign the Heavy Attack action (button) from your Input Actions asset.")]
     public InputActionReference heavyAttackAction;
+    [Tooltip("Assign the Special Attack action (button) from your Input Actions asset.")]
+    public InputActionReference specialAttackAction;
 
     [Header("Movement")]
     [Tooltip("Horizontal movement speed in units per second")]
@@ -85,16 +100,20 @@ public class player : MonoBehaviour
     [Header("Animation")]
     [Tooltip("Animator component for controlling animations")]
     public Animator animator;
+    [Tooltip("Transform to flip (usually the sprite or a parent of sprite and hitboxes). If null, flips this GameObject.")]
+    public Transform flipTransform;
 
     [Header("Attack Properties")]
     [Tooltip("Collider2D used as the attack hitbox (assign a child GameObject's collider)")]
     public Collider2D attackHitbox;
     [Tooltip("Properties for punch attack")]
-    public AttackProperties punchProperties = new AttackProperties(10f, 1f, 2f, 0.5f, 0.1f);
+    public AttackProperties punchProperties = new AttackProperties(10f, 1f, 2f, 0.5f, 0.1f, AttackHeight.Normal);
     [Tooltip("Properties for heavy punch attack")]
-    public AttackProperties heavyPunchProperties = new AttackProperties(20f, 2f, 3f, 0.8f, 0.15f);
+    public AttackProperties heavyPunchProperties = new AttackProperties(20f, 2f, 3f, 0.8f, 0.15f, AttackHeight.High);
+    [Tooltip("Properties for low kick attack")]
+    public AttackProperties lowKickProperties = new AttackProperties(12f, 1.5f, 1f, 0.6f, 0.1f, AttackHeight.Low);
     [Tooltip("Properties for air kick attack")]
-    public AttackProperties airKickProperties = new AttackProperties(15f, 3f, 4f, 1f, 0.1f);
+    public AttackProperties airKickProperties = new AttackProperties(15f, 3f, 4f, 1f, 0.1f, AttackHeight.Normal);
 
     [Header("Hitstop")]
     [Tooltip("Time scale during hitstop (0 = frozen, 1 = normal)")]
@@ -106,6 +125,28 @@ public class player : MonoBehaviour
     [Tooltip("Maximum health of the player")]
     public float maxHealth = 100f;
 
+    [Header("Hit Flash")]
+    [Tooltip("SpriteRenderer to flash when hit")]
+    public SpriteRenderer spriteRenderer;
+    [Tooltip("Color to flash when hit")]
+    public Color hitFlashColor = Color.red;
+    [Tooltip("Duration of the hit flash effect")]
+    public float hitFlashDuration = 0.1f;
+
+    [Header("Combo System")]
+    [Tooltip("Reference to the opponent player (used for combo tracking)")]
+    public player opponent;
+
+    [Header("Special Attack / Projectile")]
+    [Tooltip("Projectile prefab to spawn")]
+    public GameObject projectilePrefab;
+    [Tooltip("Spawn point for projectile (if null, uses player position)")]
+    public Transform projectileSpawnPoint;
+    [Tooltip("Speed of the projectile")]
+    public float projectileSpeed = 10f;
+    [Tooltip("Properties for special attack/projectile")]
+    public AttackProperties specialProperties = new AttackProperties(15f, 2f, 1.5f, 0.5f, 0.1f, AttackHeight.Normal);
+
     private void OnEnable()
     {
         if (moveAction != null && moveAction.action != null)
@@ -116,6 +157,8 @@ public class player : MonoBehaviour
             attackAction.action.Enable();
         if (heavyAttackAction != null && heavyAttackAction.action != null)
             heavyAttackAction.action.Enable();
+        if (specialAttackAction != null && specialAttackAction.action != null)
+            specialAttackAction.action.Enable();
     }
 
     private void OnDisable()
@@ -128,6 +171,8 @@ public class player : MonoBehaviour
             attackAction.action.Disable();
         if (heavyAttackAction != null && heavyAttackAction.action != null)
             heavyAttackAction.action.Disable();
+        if (specialAttackAction != null && specialAttackAction.action != null)
+            specialAttackAction.action.Disable();
     }
 
     // cached physics components
@@ -148,11 +193,30 @@ public class player : MonoBehaviour
     // hitstop timer
     private float hitstopTimer = 0f;
     private float originalTimeScale = 1f;
+    // hit flash coroutine reference
+    private Coroutine hitFlashCoroutine = null;
+    private Color originalSpriteColor;
+    // player facing direction (1 = right, -1 = left)
+    private int facingDirection = 1;
+    // blocking state
+    private bool isBlocking = false;
+    private bool isStandBlocking = false;
+    private bool isCrouchBlocking = false;
+    // combo tracking - global variable to track which attacks have been used in current combo
+    private HashSet<string> usedAttacksInCombo = new HashSet<string>();
+    // track if opponent was stunned last frame to detect when they exit stun
+    private bool opponentWasStunnedLastFrame = false;
 
     // Update is used for kinematic movement (non-physics). If you use Rigidbody, consider moving logic to FixedUpdate and use velocity or MovePosition.
     void Start()
     {
         // Ground level will be set when player first stops moving vertically
+        
+        // Store the original sprite color
+        if (spriteRenderer != null)
+        {
+            originalSpriteColor = spriteRenderer.color;
+        }
     }
 
     void Update()
@@ -189,6 +253,24 @@ public class player : MonoBehaviour
             animator.SetBool("stun", isStunned);
         }
 
+        // Track opponent's stun state to reset combo when they exit stun
+        if (opponent != null)
+        {
+            bool opponentIsStunned = opponent.IsStunned();
+            
+            // If opponent was stunned last frame but is not stunned now, they exited stun
+            if (opponentWasStunnedLastFrame && !opponentIsStunned)
+            {
+                // Reset our combo tracker since opponent is no longer in stun
+                usedAttacksInCombo.Clear();
+                Debug.Log(gameObject.name + "'s combo was reset (opponent exited stun)");
+            
+            }
+            
+            // Update the tracking variable for next frame
+            opponentWasStunnedLastFrame = opponentIsStunned;
+        }
+
         // Don't allow input while stunned
         if (isStunned)
         {
@@ -208,8 +290,37 @@ public class player : MonoBehaviour
             vertical = v.y;
         }
 
+        // Update facing direction based on opponent position
+        if (opponent != null)
+        {
+            if (opponent.transform.position.x > transform.position.x)
+                facingDirection = 1; // Face right (opponent is to the right)
+            else if (opponent.transform.position.x < transform.position.x)
+                facingDirection = -1; // Face left (opponent is to the left)
+        }
+        else
+        {
+            // Fallback: Update facing direction based on movement if no opponent
+            if (horizontal > 0.01f)
+                facingDirection = 1;
+            else if (horizontal < -0.01f)
+                facingDirection = -1;
+        }
+
+        // Flip the sprite and hitboxes to match facing direction
+        Transform targetTransform = flipTransform != null ? flipTransform : transform;
+        targetTransform.localScale = new Vector3(facingDirection, 1f, 1f);
+
+        // Check if player is holding back (opposite to facing direction)
+        bool isHoldingBack = (facingDirection == 1 && horizontal < -0.5f) || (facingDirection == -1 && horizontal > 0.5f);
+
         // Check if crouching (holding down)
         bool isCrouching = vertical < -0.5f;
+
+        // Determine blocking state and store in member variables
+        isBlocking = isHoldingBack || (isCrouching && isHoldingBack);
+        isStandBlocking = isHoldingBack && !isCrouching;
+        isCrouchBlocking = isCrouching && isHoldingBack;
 
         // If crouching, disable horizontal movement
         if (isCrouching)
@@ -251,56 +362,89 @@ public class player : MonoBehaviour
             heavyAttackPressed = heavyAttackAction.action.triggered;
         }
 
+        // --- Special Attack input handling ---
+        bool specialAttackPressed = false;
+        if (specialAttackAction != null && specialAttackAction.action != null)
+        {
+            specialAttackPressed = specialAttackAction.action.triggered;
+        }
+
         // --- Ground check ---
         bool grounded = IsGrounded();
 
         // Check if currently attacking (punch or air kick)
         bool isPunching = false;
         bool isHeavyPunching = false;
+        bool isLowKicking = false;
         bool isAirKicking = false;
+        bool isSpecialAttacking = false;
         if (animator != null)
         {
             isPunching = animator.GetCurrentAnimatorStateInfo(0).IsName("punch");
             isHeavyPunching = animator.GetCurrentAnimatorStateInfo(0).IsName("Hpunch");
+            isLowKicking = animator.GetCurrentAnimatorStateInfo(0).IsName("lowKick");
             isAirKicking = animator.GetCurrentAnimatorStateInfo(0).IsName("airKick");
+            isSpecialAttacking = animator.GetCurrentAnimatorStateInfo(0).IsName("special");
         }
 
         if (attackPressed && animator != null)
         {
             if (grounded)
             {
-                // Trigger punch from idle or walk state when grounded
-                if (animator.GetCurrentAnimatorStateInfo(0).IsName("idle") ||
-                    animator.GetCurrentAnimatorStateInfo(0).IsName("walk"))
+                // Check if crouching - trigger low kick instead of punch
+                if (isCrouching)
                 {
-                    // Force walk to false to interrupt walk and return to idle before punch
-                    animator.SetBool("walk", false);
-                    animator.SetTrigger("punch");
-                    currentAttackType = "punch";
+                    // Only allow low kick if it hasn't been used in this combo
+                    if (!usedAttacksInCombo.Contains("lowKick"))
+                    {
+                        // Trigger low kick from crouch
+                        animator.SetBool("walk", false);
+                        animator.SetTrigger("lowKick");
+                        currentAttackType = "lowKick";
+                    }
+                }
+                else
+                {
+                    // Only allow punch if it hasn't been used in this combo
+                    if (!usedAttacksInCombo.Contains("punch"))
+                    {
+                        // Trigger punch when grounded
+                        animator.SetBool("walk", false);
+                        animator.SetTrigger("punch");
+                        currentAttackType = "punch";
+                    }
                 }
             }
             else
             {
-                // Trigger air kick when in the air
-                animator.SetTrigger("airKick");
-                currentAttackType = "airKick";
+                // Only allow air kick if it hasn't been used in this combo
+                if (!usedAttacksInCombo.Contains("airKick"))
+                {
+                    // Trigger air kick when in the air
+                    animator.SetTrigger("airKick");
+                    currentAttackType = "airKick";
+                }
             }
         }
 
-        if (heavyAttackPressed && animator != null)
+        if (heavyAttackPressed && animator != null && grounded)
         {
-            if (grounded)
+            // Only allow heavy punch if it hasn't been used in this combo
+            if (!usedAttacksInCombo.Contains("heavyPunch"))
             {
-                // Trigger heavy punch from idle or walk state when grounded
-                if (animator.GetCurrentAnimatorStateInfo(0).IsName("idle") ||
-                    animator.GetCurrentAnimatorStateInfo(0).IsName("walk"))
-                {
-                    // Force walk to false to interrupt walk and return to idle before heavy punch
-                    animator.SetBool("walk", false);
-                    animator.SetTrigger("Hpunch");
-                    currentAttackType = "heavyPunch";
-                }
+                // Trigger heavy punch when grounded
+                animator.SetBool("walk", false);
+                animator.SetTrigger("Hpunch");
+                currentAttackType = "heavyPunch";
             }
+        }
+
+        if (specialAttackPressed && animator != null && grounded)
+        {
+            // Trigger special attack when grounded (not limited by combo tracker)
+            animator.SetBool("walk", false);
+            animator.SetTrigger("special");
+            currentAttackType = "special";
         }
 
         // Update current attack type based on animation state
@@ -308,13 +452,17 @@ public class player : MonoBehaviour
             currentAttackType = "punch";
         else if (isHeavyPunching && currentAttackType != "heavyPunch")
             currentAttackType = "heavyPunch";
+        else if (isLowKicking && currentAttackType != "lowKick")
+            currentAttackType = "lowKick";
         else if (isAirKicking && currentAttackType != "airKick")
             currentAttackType = "airKick";
-        else if (!isPunching && !isHeavyPunching && !isAirKicking)
+        else if (isSpecialAttacking && currentAttackType != "special")
+            currentAttackType = "special";
+        else if (!isPunching && !isHeavyPunching && !isLowKicking && !isAirKicking && !isSpecialAttacking)
             currentAttackType = "";
 
         // Continuously check for attack hits during attack animations
-        if (isPunching || isHeavyPunching || isAirKicking)
+        if (isPunching || isHeavyPunching || isLowKicking || isAirKicking)
         {
             CheckAttackHit();
         }
@@ -330,7 +478,7 @@ public class player : MonoBehaviour
         }
 
         // Track state changes
-        bool isAttacking = isPunching || isHeavyPunching || isAirKicking;
+        bool isAttacking = isPunching || isHeavyPunching || isLowKicking || isAirKicking || isSpecialAttacking;
         if (isAttacking && !wasAttacking)
         {
             // Clear the hit list at the start of a new attack
@@ -341,7 +489,7 @@ public class player : MonoBehaviour
         // Set walk animation parameter based on horizontal movement
         if (animator != null)
         {
-            // Don't set walk to true if attacking
+            // Don't set walk to true if attacking or blocking
             if (!isAttacking)
             {
                 bool isWalking = Mathf.Abs(horizontal) > 0.01f;
@@ -368,8 +516,8 @@ public class player : MonoBehaviour
         if (rb2D != null)
         {
             Vector2 vel2 = rb2D.linearVelocity;
-            // Stop horizontal movement when punching or heavy punching, but keep velocity during air kick
-            if (isPunching || isHeavyPunching)
+            // Stop horizontal movement when punching, heavy punching, low kicking, or special attacking, but keep velocity during air kick
+            if (isPunching || isHeavyPunching || isLowKicking || isSpecialAttacking)
             {
                 vel2.x = 0f;
             }
@@ -557,6 +705,10 @@ public class player : MonoBehaviour
             {
                 properties = heavyPunchProperties;
             }
+            else if (currentAttackType == "lowKick")
+            {
+                properties = lowKickProperties;
+            }
             else // Default to punch values
             {
                 properties = punchProperties;
@@ -569,17 +721,24 @@ public class player : MonoBehaviour
                 properties.knockbackForce, 
                 properties.knockbackUpward, 
                 properties.stunDuration, 
-                properties.hitstopDuration
+                properties.hitstopDuration,
+                properties.attackHeight
             );
             // Send message to the parent of the hurtbox collider
             if (col.transform.parent != null)
             {
                 col.transform.parent.gameObject.SendMessage("OnHit", hitInfo, SendMessageOptions.DontRequireReceiver);
+                
+                // Add this attack to the combo tracker since it successfully hit
+                usedAttacksInCombo.Add(currentAttackType);
             }
             else
             {
                 // If no parent, send to the collider's own GameObject
                 col.gameObject.SendMessage("OnHit", hitInfo, SendMessageOptions.DontRequireReceiver);
+                
+                // Add this attack to the combo tracker since it successfully hit
+                usedAttacksInCombo.Add(currentAttackType);
             }
             
             // Apply hitstop effect with attack-specific duration
@@ -601,8 +760,57 @@ public class player : MonoBehaviour
     // Called when this player gets hit by another player's attack
     public void OnHit(HitInfo hitInfo)
     {
+        // Check if player is currently blocking using stored blocking state
+        bool isCrouching = isCrouchBlocking; // If crouch blocking, they're crouching
+        
+        // Determine if the block is successful based on attack height
+        bool blockSuccessful = false;
+        if (isBlocking)
+        {
+            if (isStandBlocking && hitInfo.attackHeight != AttackHeight.Low)
+            {
+                // Standing block works against Normal and High attacks
+                blockSuccessful = true;
+            }
+            else if (isCrouchBlocking && hitInfo.attackHeight != AttackHeight.High)
+            {
+                // Crouch block works against Normal and Low attacks
+                blockSuccessful = true;
+            }
+        }
+        
+        if (blockSuccessful)
+        {
+            // Successful block - reduce damage and prevent most effects
+            float blockedDamage = hitInfo.damage * 0.2f; // Take only 20% damage when blocking
+            health -= blockedDamage;
+            Debug.Log(gameObject.name + " blocked! Took " + blockedDamage + " damage. Health: " + health);
+            
+            // Apply minimal knockback when blocking
+            if (rb2D != null)
+            {
+                Vector2 knockback = hitInfo.knockbackDirection * (hitInfo.knockbackForce * 0.3f);
+                rb2D.linearVelocity = knockback;
+            }
+            
+            return; // Don't apply full hit effects
+        }
+        
+        // Normal hit (not blocked)
         health -= hitInfo.damage;
         Debug.Log(gameObject.name + " was hit! Took " + hitInfo.damage + " damage. Health: " + health);
+        
+        // Trigger hit flash effect
+        if (spriteRenderer != null)
+        {
+            // Stop any existing flash coroutine to prevent overlap
+            if (hitFlashCoroutine != null)
+            {
+                StopCoroutine(hitFlashCoroutine);
+                spriteRenderer.color = originalSpriteColor; // Reset color first
+            }
+            hitFlashCoroutine = StartCoroutine(HitFlash());
+        }
         
         // Check if already stunned before resetting animator
         bool wasAlreadyStunned = stunTimer > 0f;
@@ -634,6 +842,62 @@ public class player : MonoBehaviour
             animator.ResetTrigger("punch");
             animator.Play("idle", 0, 0f);
         }
+    }
+
+    // Coroutine to flash the sprite when hit
+    private System.Collections.IEnumerator HitFlash()
+    {
+        if (spriteRenderer == null) yield break;
+        
+        // Change to flash color
+        spriteRenderer.color = hitFlashColor;
+        
+        // Wait for flash duration
+        yield return new WaitForSeconds(hitFlashDuration);
+        
+        // Return to original color
+        spriteRenderer.color = originalSpriteColor;
+        
+        // Clear the coroutine reference
+        hitFlashCoroutine = null;
+    }
+
+    // Public method to reset the combo tracker - called by opponent when they exit stun
+    public void ResetOpponentCombo()
+    {
+        usedAttacksInCombo.Clear();
+        Debug.Log(gameObject.name + "'s combo was reset");
+    }
+
+    // Public method to check if this player is stunned (used by opponent to track stun state)
+    public bool IsStunned()
+    {
+        return stunTimer > 0f;
+    }
+
+    // Spawns a projectile for the special attack (called from animation event)
+    public void SpawnProjectile()
+    {
+        if (projectilePrefab == null)
+        {
+            Debug.LogWarning("Projectile prefab is not assigned!");
+            return;
+        }
+
+        // Determine spawn position
+        Vector3 spawnPosition = projectileSpawnPoint != null ? projectileSpawnPoint.position : transform.position;
+
+        // Instantiate the projectile
+        GameObject projectile = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
+
+        // Initialize projectile with attack data
+        proj projectileScript = projectile.GetComponent<proj>();
+        if (projectileScript != null)
+        {
+            projectileScript.Initialize(specialProperties, gameObject, facingDirection, projectileSpeed);
+        }
+
+        Debug.Log(gameObject.name + " spawned a projectile");
     }
 
 }
