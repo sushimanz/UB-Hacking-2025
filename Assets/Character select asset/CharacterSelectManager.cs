@@ -272,6 +272,11 @@ public class CharacterSelectManager : MonoBehaviour
         player1SelectedCharacter = selected;
         player1Confirmed = true;
         PlayerPrefs.SetString("Player1Character", selected);
+        
+        // Save to GameData singleton - convert character name to ID
+        int characterID = GetCharacterID(selected);
+        GameData.Instance.SetPlayerCharacter(0, characterID);
+        
         if (player1ConfirmIndicator != null) player1ConfirmIndicator.SetActive(true);
         if (player1ReadyText != null) player1ReadyText.gameObject.SetActive(true);
         Debug.Log("Player 1 CONFIRMED: " + selected);
@@ -293,11 +298,29 @@ public class CharacterSelectManager : MonoBehaviour
         player2SelectedCharacter = selected;
         player2Confirmed = true;
         PlayerPrefs.SetString("Player2Character", selected);
+        
+        // Save to GameData singleton - convert character name to ID
+        int characterID = GetCharacterID(selected);
+        GameData.Instance.SetPlayerCharacter(1, characterID);
+        
         if (player2ConfirmIndicator != null) player2ConfirmIndicator.SetActive(true);
         if (player2ReadyText != null) player2ReadyText.gameObject.SetActive(true);
         Debug.Log("Player 2 CONFIRMED: " + selected);
         PlaySound();
         CheckIfBothPlayersReady();
+    }
+    
+    // Convert character name to ID based on allowedCharacters array
+    int GetCharacterID(string characterName)
+    {
+        for (int i = 0; i < allowedCharacters.Length; i++)
+        {
+            if (characterName.Equals(allowedCharacters[i], System.StringComparison.OrdinalIgnoreCase))
+            {
+                return i;
+            }
+        }
+        return 0; // Default to first character if not found
     }
 
     void CheckIfBothPlayersReady()

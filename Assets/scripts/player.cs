@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
 // Attack height type enumeration
@@ -108,6 +109,10 @@ public class player : MonoBehaviour
     public Animator animator;
     [Tooltip("Transform to flip (usually the sprite or a parent of sprite and hitboxes). If null, flips this GameObject.")]
     public Transform flipTransform;
+    
+    [Header("Character Selection")]
+    [Tooltip("Array of animator controllers for different characters (index 0 = character 1, index 1 = character 2, etc.)")]
+    public RuntimeAnimatorController[] characterAnimators;
 
     [Header("Attack Properties")]
     [Tooltip("Collider2D used as the attack hitbox (assign a child GameObject's collider)")]
@@ -146,8 +151,8 @@ public class player : MonoBehaviour
     public player opponent;
 
     [Header("Special Attack / Projectile")]
-    [Tooltip("Projectile prefab to spawn")]
-    public GameObject projectilePrefab;
+    [Tooltip("Array of projectile prefabs for each character (index 0 = character 1, index 1 = character 2, etc.)")]
+    public GameObject[] projectilePrefabs;
     [Tooltip("Spawn point for projectile (if null, uses player position)")]
     public Transform projectileSpawnPoint;
     [Tooltip("Speed of the projectile")]
@@ -226,6 +231,18 @@ public class player : MonoBehaviour
     // Update is used for kinematic movement (non-physics). If you use Rigidbody, consider moving logic to FixedUpdate and use velocity or MovePosition.
     void Start()
     {
+        // Set player index based on GameObject name
+        if (gameObject.name.Contains("Player 1") || gameObject.name.Contains("P1"))
+        {
+            playerIndex = 0;
+            Debug.Log("Player index set to 0 (Player 1)");
+        }
+        else if (gameObject.name.Contains("Player 2") || gameObject.name.Contains("P2"))
+        {
+            playerIndex = 1;
+            Debug.Log("Player index set to 1 (Player 2)");
+        }
+        
         // Try to get PlayerInput component (used with PlayerInputManager)
         playerInput = GetComponent<PlayerInput>();
         
@@ -242,6 +259,23 @@ public class player : MonoBehaviour
         
         // Find opponent player
         FindOpponent();
+        
+        // Set the correct animator controller based on character selection from GameData
+        SetupCharacterAnimator();
+        
+        // Get or cache Rigidbody2D and set initial Y velocity to non-zero
+        if (rb2D == null)
+        {
+            rb2D = GetComponent<Rigidbody2D>();
+        }
+        
+        if (rb2D != null)
+        {
+            // Set initial Y velocity to a small non-zero value (e.g., -0.1f for slight downward)
+            Vector2 initialVelocity = rb2D.linearVelocity;
+            initialVelocity.y = -0.1f;
+            rb2D.linearVelocity = initialVelocity;
+        }
         
         // Ground level will be set when player first stops moving vertically
         
@@ -272,6 +306,37 @@ public class player : MonoBehaviour
         if (opponent == null)
         {
             Invoke(nameof(FindOpponent), 0.1f);
+        }
+    }
+    
+    void SetupCharacterAnimator()
+    {
+        if (animator == null || characterAnimators == null || characterAnimators.Length == 0)
+        {
+            Debug.LogWarning("Animator or character animators not set up!");
+            return;
+        }
+        
+        // Get character ID from GameData singleton
+        int characterID = GameData.Instance.GetPlayerCharacter(playerIndex);
+
+        // Validate character ID
+        if (characterID < 0 || characterID >= characterAnimators.Length)
+        {
+            Debug.LogWarning($"Invalid character ID {characterID} for Player {playerIndex + 1}. Using default character 0.");
+            characterID = 0;
+        }
+        
+        Debug.Log($"Player {playerIndex + 1} selected character ID: {characterID}");
+        // Assign the animator controller
+        if (characterAnimators[characterID] != null)
+        {
+            animator.runtimeAnimatorController = characterAnimators[characterID];
+            Debug.Log($"Player {playerIndex + 1} using character {characterID} animator");
+        }
+        else
+        {
+            Debug.LogError($"Character animator at index {characterID} is null!");
         }
     }
 
@@ -955,7 +1020,9 @@ public class player : MonoBehaviour
         {
             health = 0f;
             Debug.Log(gameObject.name + " is dead!");
-            // Add death logic here
+            
+            // Restart the game after a short delay
+            Invoke(nameof(RestartGame), 2f);
         }
         
         // Only interrupt current animation and return to idle if not already stunned
@@ -1002,9 +1069,28 @@ public class player : MonoBehaviour
     // Spawns a projectile for the special attack (called from animation event)
     public void SpawnProjectile()
     {
+        if (projectilePrefabs == null || projectilePrefabs.Length == 0)
+        {
+            Debug.LogWarning("Projectile prefabs array is not assigned or empty!");
+            return;
+        }
+
+        // Get character ID from GameData singleton
+        int characterID = GameData.Instance.GetPlayerCharacter(playerIndex);
+
+        // Validate character ID and use default if invalid
+        if (characterID < 0 || characterID >= projectilePrefabs.Length)
+        {
+            Debug.LogWarning($"Invalid character ID {characterID} for projectile. Using character 0.");
+            characterID = 0;
+        }
+
+        // Get the projectile prefab for this character
+        GameObject projectilePrefab = projectilePrefabs[characterID];
+        
         if (projectilePrefab == null)
         {
-            Debug.LogWarning("Projectile prefab is not assigned!");
+            Debug.LogWarning($"Projectile prefab for character {characterID} is not assigned!");
             return;
         }
 
@@ -1021,7 +1107,17 @@ public class player : MonoBehaviour
             projectileScript.Initialize(specialProperties, gameObject, facingDirection, projectileSpeed);
         }
 
-        Debug.Log(gameObject.name + " spawned a projectile");
+        Debug.Log(gameObject.name + " spawned a " + projectilePrefab.name + " projectile (character " + characterID + ")");
+    }
+
+    // Restart the entire game (called when a player dies)
+    private void RestartGame()
+    {
+        // Reset time scale in case it was modified by hitstop
+        Time.timeScale = 1f;
+        
+        // Reload the current scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 }

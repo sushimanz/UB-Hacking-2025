@@ -1,0 +1,1651 @@
+fileFormatVersion: 2
+guid: 991229ffe8d256f4e873c4e316301ed8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2348119716919268485
+    second: Ethan_Ready-export_0
+  - first:
+      213: 2461312841521862022
+    second: Ethan_Ready-export_1
+  - first:
+      213: 1794836693075060284
+    second: Ethan_Ready-export_2
+  - first:
+      213: 785676355554783980
+    second: Ethan_Ready-export_3
+  - first:
+      213: 8861841225278751710
+    second: Ethan_Ready-export_4
+  - first:
+      213: 9046408966276578075
+    second: Ethan_Ready-export_5
+  - first:
+      213: -3077330074352240239
+    second: Ethan_Ready-export_6
+  - first:
+      213: -1444875466295407299
+    second: Ethan_Ready-export_7
+  - first:
+      213: -4896096242558296009
+    second: Ethan_Ready-export_8
+  - first:
+      213: 5482989584402526370
+    second: Ethan_Ready-export_9
+  - first:
+      213: 1791827726789749243
+    second: Ethan_Ready-export_10
+  - first:
+      213: -1615242088619907113
+    second: Ethan_Ready-export_11
+  - first:
+      213: -1298629065994860721
+    second: Ethan_Ready-export_12
+  - first:
+      213: 1479126907334751337
+    second: Ethan_Ready-export_13
+  - first:
+      213: -9042804877337533674
+    second: Ethan_Ready-export_14
+  - first:
+      213: -6921815635065554303
+    second: Ethan_Ready-export_15
+  - first:
+      213: 7889243217718226881
+    second: Ethan_Ready-export_16
+  - first:
+      213: -748696429982173459
+    second: Ethan_Ready-export_17
+  - first:
+      213: 4159559690080264071
+    second: Ethan_Ready-export_18
+  - first:
+      213: 3091365227558908256
+    second: Ethan_Ready-export_19
+  - first:
+      213: -3612462480416108471
+    second: Ethan_Ready-export_20
+  - first:
+      213: 438659193625793778
+    second: Ethan_Ready-export_21
+  - first:
+      213: -4381137871464917045
+    second: Ethan_Ready-export_22
+  - first:
+      213: 2388391590073401563
+    second: Ethan_Ready-export_23
+  - first:
+      213: -5372163276403453537
+    second: Ethan_Ready-export_24
+  - first:
+      213: 2074282372200328784
+    second: Ethan_Ready-export_25
+  - first:
+      213: 5662470922582448929
+    second: Ethan_Ready-export_26
+  - first:
+      213: 8551373907373220430
+    second: Ethan_Ready-export_27
+  - first:
+      213: 823594154376864684
+    second: Ethan_Ready-export_28
+  - first:
+      213: -4919217541650960795
+    second: Ethan_Ready-export_29
+  - first:
+      213: -3105969593581727849
+    second: Ethan_Ready-export_30
+  - first:
+      213: -525241707508570008
+    second: Ethan_Ready-export_31
+  - first:
+      213: -7092662286750897307
+    second: Ethan_Ready-export_32
+  - first:
+      213: -7818925976326036101
+    second: Ethan_Ready-export_33
+  - first:
+      213: -5176662211565045126
+    second: Ethan_Ready-export_34
+  - first:
+      213: -7764438236952763203
+    second: Ethan_Ready-export_35
+  - first:
+      213: 3378304275647175819
+    second: Ethan_Ready-export_36
+  - first:
+      213: 850060712584963842
+    second: Ethan_Ready-export_37
+  - first:
+      213: -5804663297510040071
+    second: Ethan_Ready-export_38
+  - first:
+      213: -3019275706017344347
+    second: Ethan_Ready-export_39
+  - first:
+      213: -6746281865127690276
+    second: Ethan_Ready-export_40
+  - first:
+      213: 3009766227832850250
+    second: Ethan_Ready-export_41
+  - first:
+      213: 3079687001826164637
+    second: Ethan_Ready-export_42
+  - first:
+      213: 7711873271421949373
+    second: Ethan_Ready-export_43
+  - first:
+      213: -1577333340800256877
+    second: Ethan_Ready-export_44
+  - first:
+      213: -6586006322149451525
+    second: Ethan_Ready-export_45
+  - first:
+      213: 4608141156653866790
+    second: Ethan_Ready-export_46
+  - first:
+      213: -4626144124011184374
+    second: Ethan_Ready-export_47
+  - first:
+      213: 8872227598060637395
+    second: Ethan_Ready-export_48
+  - first:
+      213: 6308433143207677323
+    second: Ethan_Ready-export_49
+  - first:
+      213: 1537298653171793576
+    second: Ethan_Ready-export_50
+  - first:
+      213: -7730899421639304385
+    second: Ethan_Ready-export_51
+  - first:
+      213: -1329791979465453875
+    second: Ethan_Ready-export_52
+  - first:
+      213: 4571328951944323127
+    second: Ethan_Ready-export_53
+  - first:
+      213: -5751716315559994609
+    second: Ethan_Ready-export_54
+  - first:
+      213: 5129559999439574933
+    second: Ethan_Ready-export_55
+  - first:
+      213: -5386765555458308536
+    second: Ethan_Ready-export_56
+  - first:
+      213: -5572108492483341985
+    second: Ethan_Ready-export_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ethan_Ready-export_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1078
+        width: 89
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58450111172369020800000000000000
+      internalID: 2348119716919268485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1067
+        width: 186
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68594002df6582220800000000000000
+      internalID: 2461312841521862022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1077
+        width: 193
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c366390867a88e810800000000000000
+      internalID: 1794836693075060284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_3
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1075
+        width: 135
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce234419b7847ea00800000000000000
+      internalID: 785676355554783980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_4
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1153
+        width: 102
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed307a074a59bfa70800000000000000
+      internalID: 8861841225278751710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_5
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1069
+        width: 122
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bf2df560d4b8d70800000000000000
+      internalID: 9046408966276578075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_6
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1071
+        width: 109
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199bb9d0a902b45d0800000000000000
+      internalID: -3077330074352240239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_7
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1071
+        width: 100
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d09ce2b65c2fbe0800000000000000
+      internalID: -1444875466295407299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 879
+        width: 74
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730203478629d0cb0800000000000000
+      internalID: -4896096242558296009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_9
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 857
+        width: 114
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0ba751afd771c40800000000000000
+      internalID: 5482989584402526370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1033
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9aff1f2d9ddd810800000000000000
+      internalID: 1791827726789749243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 869
+        width: 73
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7ec89d0e18599e0800000000000000
+      internalID: -1615242088619907113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_12
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 873
+        width: 114
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f470162beb75afde0800000000000000
+      internalID: -1298629065994860721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_13
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 873
+        width: 75
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964f861e51ae68410800000000000000
+      internalID: 1479126907334751337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_14
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 867
+        width: 76
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6136029ffd0818280800000000000000
+      internalID: -9042804877337533674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_15
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 863
+        width: 66
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a3c2f6a55c0ff90800000000000000
+      internalID: -6921815635065554303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_16
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 863
+        width: 65
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf21c258e83c7d60800000000000000
+      internalID: 7889243217718226881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_17
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 865
+        width: 64
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de63f4e40981c95f0800000000000000
+      internalID: -748696429982173459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 843
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f9445ff79b9b930800000000000000
+      internalID: 4159559690080264071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 667
+        width: 99
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061b4a3bb4cb6ea20800000000000000
+      internalID: 3091365227558908256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_20
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 657
+        width: 85
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9401f528384fdddc0800000000000000
+      internalID: -3612462480416108471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 653
+        width: 112
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f45685663e661600800000000000000
+      internalID: 438659193625793778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_22
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 665
+        width: 110
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7925371521333c0800000000000000
+      internalID: -4381137871464917045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_23
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 669
+        width: 85
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd00bd63f75452120800000000000000
+      internalID: 2388391590073401563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_24
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 671
+        width: 106
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91d29a86fd3275b0800000000000000
+      internalID: -5372163276403453537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_25
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 669
+        width: 125
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05eead6d3d459cc10800000000000000
+      internalID: 2074282372200328784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_26
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 671
+        width: 115
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b51839d43259e40800000000000000
+      internalID: 5662470922582448929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_27
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 673
+        width: 130
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42668af2459ca670800000000000000
+      internalID: 8551373907373220430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_28
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 444
+        width: 88
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3a8b2158efd6b00800000000000000
+      internalID: 823594154376864684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 604
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e260185bd6bbbb0800000000000000
+      internalID: -4919217541650960795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_30
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 450
+        width: 99
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f856b5c1165e4d0800000000000000
+      internalID: -3105969593581727849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_31
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 496
+        width: 72
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8686bba2377f5b8f0800000000000000
+      internalID: -525241707508570008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_32
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 452
+        width: 72
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b276e8a3dc19d90800000000000000
+      internalID: -7092662286750897307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_33
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 446
+        width: 109
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75230040489d7390800000000000000
+      internalID: -7818925976326036101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_34
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 450
+        width: 76
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a3a7d452dc828b0800000000000000
+      internalID: -5176662211565045126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_35
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 450
+        width: 70
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db468fdaf8c2f3490800000000000000
+      internalID: -7764438236952763203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_36
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 456
+        width: 115
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c1225f6d522ee20800000000000000
+      internalID: 3378304275647175819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_37
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 454
+        width: 122
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207642bd6b50ccb00800000000000000
+      internalID: 850060712584963842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_38
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 512
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd9a2f3c71b17fa0800000000000000
+      internalID: -5804663297510040071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_39
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 488
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a49edffdb06916d0800000000000000
+      internalID: -3019275706017344347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_40
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 478
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf776213646062a0800000000000000
+      internalID: -6746281865127690276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_41
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 275
+        width: 71
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47c1f21076d4c920800000000000000
+      internalID: 3009766227832850250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_42
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 289
+        width: 111
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f7c33e20f3dba20800000000000000
+      internalID: 3079687001826164637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_43
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 223
+        width: 82
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db55fef81e3160b60800000000000000
+      internalID: 7711873271421949373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_44
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 295
+        width: 92
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39478310faf2c1ae0800000000000000
+      internalID: -1577333340800256877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_45
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 259
+        width: 76
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf81ec7e42ec994a0800000000000000
+      internalID: -6586006322149451525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_46
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 356
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f163d87f763ff30800000000000000
+      internalID: 4608141156653866790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_47
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 257
+        width: 136
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f7d88fd62accfb0800000000000000
+      internalID: -4626144124011184374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_48
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 273
+        width: 78
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc42dc4efb702b70800000000000000
+      internalID: 8872227598060637395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 109
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dc13e258e0c8750800000000000000
+      internalID: 6308433143207677323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 81
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aebdf7eaf4955510800000000000000
+      internalID: 1537298653171793576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_51
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 34
+        width: 73
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b9ae2afe356b490800000000000000
+      internalID: -7730899421639304385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_52
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 14
+        width: 67
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce4cce7d31ab8de0800000000000000
+      internalID: -1329791979465453875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_53
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 0
+        width: 74
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730a91c367f907f30800000000000000
+      internalID: 4571328951944323127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_54
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 72
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b5a322c7ccd20b0800000000000000
+      internalID: -5751716315559994609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_55
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 22
+        width: 140
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59716a454abdf2740800000000000000
+      internalID: 5129559999439574933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_56
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 24
+        width: 99
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8460992844d5e35b0800000000000000
+      internalID: -5386765555458308536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ethan_Ready-export_57
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 22
+        width: 78
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51d79f29d4eba2b0800000000000000
+      internalID: -5572108492483341985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ethan_Ready-export_0: 2348119716919268485
+      Ethan_Ready-export_1: 2461312841521862022
+      Ethan_Ready-export_10: 1791827726789749243
+      Ethan_Ready-export_11: -1615242088619907113
+      Ethan_Ready-export_12: -1298629065994860721
+      Ethan_Ready-export_13: 1479126907334751337
+      Ethan_Ready-export_14: -9042804877337533674
+      Ethan_Ready-export_15: -6921815635065554303
+      Ethan_Ready-export_16: 7889243217718226881
+      Ethan_Ready-export_17: -748696429982173459
+      Ethan_Ready-export_18: 4159559690080264071
+      Ethan_Ready-export_19: 3091365227558908256
+      Ethan_Ready-export_2: 1794836693075060284
+      Ethan_Ready-export_20: -3612462480416108471
+      Ethan_Ready-export_21: 438659193625793778
+      Ethan_Ready-export_22: -4381137871464917045
+      Ethan_Ready-export_23: 2388391590073401563
+      Ethan_Ready-export_24: -5372163276403453537
+      Ethan_Ready-export_25: 2074282372200328784
+      Ethan_Ready-export_26: 5662470922582448929
+      Ethan_Ready-export_27: 8551373907373220430
+      Ethan_Ready-export_28: 823594154376864684
+      Ethan_Ready-export_29: -4919217541650960795
+      Ethan_Ready-export_3: 785676355554783980
+      Ethan_Ready-export_30: -3105969593581727849
+      Ethan_Ready-export_31: -525241707508570008
+      Ethan_Ready-export_32: -7092662286750897307
+      Ethan_Ready-export_33: -7818925976326036101
+      Ethan_Ready-export_34: -5176662211565045126
+      Ethan_Ready-export_35: -7764438236952763203
+      Ethan_Ready-export_36: 3378304275647175819
+      Ethan_Ready-export_37: 850060712584963842
+      Ethan_Ready-export_38: -5804663297510040071
+      Ethan_Ready-export_39: -3019275706017344347
+      Ethan_Ready-export_4: 8861841225278751710
+      Ethan_Ready-export_40: -6746281865127690276
+      Ethan_Ready-export_41: 3009766227832850250
+      Ethan_Ready-export_42: 3079687001826164637
+      Ethan_Ready-export_43: 7711873271421949373
+      Ethan_Ready-export_44: -1577333340800256877
+      Ethan_Ready-export_45: -6586006322149451525
+      Ethan_Ready-export_46: 4608141156653866790
+      Ethan_Ready-export_47: -4626144124011184374
+      Ethan_Ready-export_48: 8872227598060637395
+      Ethan_Ready-export_49: 6308433143207677323
+      Ethan_Ready-export_5: 9046408966276578075
+      Ethan_Ready-export_50: 1537298653171793576
+      Ethan_Ready-export_51: -7730899421639304385
+      Ethan_Ready-export_52: -1329791979465453875
+      Ethan_Ready-export_53: 4571328951944323127
+      Ethan_Ready-export_54: -5751716315559994609
+      Ethan_Ready-export_55: 5129559999439574933
+      Ethan_Ready-export_56: -5386765555458308536
+      Ethan_Ready-export_57: -5572108492483341985
+      Ethan_Ready-export_6: -3077330074352240239
+      Ethan_Ready-export_7: -1444875466295407299
+      Ethan_Ready-export_8: -4896096242558296009
+      Ethan_Ready-export_9: 5482989584402526370
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -79,12 +79,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 239060949188373520, guid: 1353846c074b13b449d90a4f5aac0016, type: 3}
+  m_Sprite: {fileID: 3091365227558908256, guid: 991229ffe8d256f4e873c4e316301ed8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.89, y: 1.69}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -269,7 +269,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.39, y: -1.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5279874403501507672}
   - {fileID: 2737252240854424715}
@@ -370,6 +370,9 @@ MonoBehaviour:
   groundCheck: {fileID: 0}
   animator: {fileID: 7046012253803783662}
   flipTransform: {fileID: 0}
+  characterAnimators:
+  - {fileID: 9100000, guid: 21159f3ea566c614f9a3056190fd3771, type: 2}
+  - {fileID: 9100000, guid: c5fe28cb50514eb438f206f00c7051dc, type: 2}
   attackHitbox: {fileID: 5491581734512993393}
   punchProperties:
     damage: 10
@@ -413,7 +416,9 @@ MonoBehaviour:
   hitFlashColor: {r: 1, g: 0, b: 0, a: 1}
   hitFlashDuration: 0.1
   opponent: {fileID: 0}
-  projectilePrefab: {fileID: 5297986514879934485, guid: fc6d3631aa7dbfb4abc7c753908f6554, type: 3}
+  projectilePrefabs:
+  - {fileID: 5297986514879934485, guid: d418594df8ce4c2448a6ea9a1c2058d2, type: 3}
+  - {fileID: 5297986514879934485, guid: fc6d3631aa7dbfb4abc7c753908f6554, type: 3}
   projectileSpawnPoint: {fileID: 5214266930188421741}
   projectileSpeed: 10
   specialProperties:

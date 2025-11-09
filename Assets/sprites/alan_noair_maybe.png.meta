@@ -1,181 +1,181 @@
 fileFormatVersion: 2
-guid: 1353846c074b13b449d90a4f5aac0016
+guid: e6ffc0fb4fad7214bb6af9091db75c0b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7541404413625640283
-    second: alan_noair_maybe_0
+      213: -5011026879444134799
+    second: Alan_Ready_0
   - first:
-      213: -1357810563937742211
-    second: alan_noair_maybe_1
+      213: 2966120735263798809
+    second: Alan_Ready_1
   - first:
-      213: 6759038137840995577
-    second: alan_noair_maybe_2
+      213: 1568019319309477735
+    second: Alan_Ready_2
   - first:
-      213: 7292458589508164294
-    second: alan_noair_maybe_3
+      213: -1871200585444010131
+    second: Alan_Ready_3
   - first:
-      213: 7060292197971717304
-    second: alan_noair_maybe_4
+      213: 1389025338056338807
+    second: Alan_Ready_4
   - first:
-      213: 5682025839970347318
-    second: alan_noair_maybe_5
+      213: -4176625157711790066
+    second: Alan_Ready_5
   - first:
-      213: 239060949188373520
-    second: alan_noair_maybe_6
+      213: -7627762342435997685
+    second: Alan_Ready_6
   - first:
-      213: 8703701425082515458
-    second: alan_noair_maybe_7
+      213: 3185974554036004685
+    second: Alan_Ready_7
   - first:
-      213: 8332640424532075258
-    second: alan_noair_maybe_8
+      213: 2842924879370928356
+    second: Alan_Ready_8
   - first:
-      213: 3876240415525270454
-    second: alan_noair_maybe_9
+      213: 3810193258512535928
+    second: Alan_Ready_9
   - first:
-      213: 8496999671146256522
-    second: alan_noair_maybe_10
+      213: -1458230495458600785
+    second: Alan_Ready_10
   - first:
-      213: -3351632262837987957
-    second: alan_noair_maybe_11
+      213: -56895061386517035
+    second: Alan_Ready_11
   - first:
-      213: 422519031780795957
-    second: alan_noair_maybe_12
+      213: 6657459367288873052
+    second: Alan_Ready_12
   - first:
-      213: 1192924708873560851
-    second: alan_noair_maybe_13
+      213: -2920312767647689208
+    second: Alan_Ready_13
   - first:
-      213: -5661631361093025263
-    second: alan_noair_maybe_14
+      213: 7943402821003365060
+    second: Alan_Ready_14
   - first:
-      213: 590249279672054398
-    second: alan_noair_maybe_15
+      213: 7494414958786062786
+    second: Alan_Ready_15
   - first:
-      213: -6849139604206909655
-    second: alan_noair_maybe_16
+      213: 4838516821126282281
+    second: Alan_Ready_16
   - first:
-      213: -8353660035735853348
-    second: alan_noair_maybe_17
+      213: -6767024742685720784
+    second: Alan_Ready_17
   - first:
-      213: 5490445477609017423
-    second: alan_noair_maybe_18
+      213: 247917952891555399
+    second: Alan_Ready_18
   - first:
-      213: -2794829398912230756
-    second: alan_noair_maybe_19
+      213: 6484872739739590414
+    second: Alan_Ready_19
   - first:
-      213: 6090190947601379241
-    second: alan_noair_maybe_20
+      213: 5054206602724891158
+    second: Alan_Ready_20
   - first:
-      213: -5483550695114393512
-    second: alan_noair_maybe_21
+      213: 61993088135689749
+    second: Alan_Ready_21
   - first:
-      213: 3404426795529278537
-    second: alan_noair_maybe_22
+      213: 4815143045078717144
+    second: Alan_Ready_22
   - first:
-      213: 7205519248953866356
-    second: alan_noair_maybe_23
+      213: -5577841678977351452
+    second: Alan_Ready_23
   - first:
-      213: 3365934236481709055
-    second: alan_noair_maybe_24
+      213: -4709571952283936630
+    second: Alan_Ready_24
   - first:
-      213: -2642161473432358443
-    second: alan_noair_maybe_25
+      213: 7179106110543046031
+    second: Alan_Ready_25
   - first:
-      213: -911177600361382405
-    second: alan_noair_maybe_26
+      213: 8434464272895584320
+    second: Alan_Ready_26
   - first:
-      213: -3623621784567921938
-    second: alan_noair_maybe_27
+      213: 2732118995471092783
+    second: Alan_Ready_27
   - first:
-      213: -1683890918933105507
-    second: alan_noair_maybe_28
+      213: -8084797847063915681
+    second: Alan_Ready_28
   - first:
-      213: 4656537259100697445
-    second: alan_noair_maybe_29
+      213: -4355616028403368601
+    second: Alan_Ready_29
   - first:
-      213: 5552168470078812769
-    second: alan_noair_maybe_30
+      213: 303487525278760441
+    second: Alan_Ready_30
   - first:
-      213: -2442395217860591161
-    second: alan_noair_maybe_31
+      213: 6972452267322384778
+    second: Alan_Ready_31
   - first:
-      213: 275201558989208131
-    second: alan_noair_maybe_32
+      213: 2901879269545765287
+    second: Alan_Ready_32
   - first:
-      213: -2437723107320464077
-    second: alan_noair_maybe_33
+      213: 6998670366630408557
+    second: Alan_Ready_33
   - first:
-      213: 9117734697461367554
-    second: alan_noair_maybe_34
+      213: -8204876174345537134
+    second: Alan_Ready_34
   - first:
-      213: 22822828132210547
-    second: alan_noair_maybe_35
+      213: -1608811216896617786
+    second: Alan_Ready_35
   - first:
-      213: 256040727821035594
-    second: alan_noair_maybe_36
+      213: -1363938695150232544
+    second: Alan_Ready_36
   - first:
-      213: 1850640792725655466
-    second: alan_noair_maybe_37
+      213: 3723857408371222039
+    second: Alan_Ready_37
   - first:
-      213: 8285104259291736465
-    second: alan_noair_maybe_38
+      213: -2170085783510603288
+    second: Alan_Ready_38
   - first:
-      213: 7270992107951670233
-    second: alan_noair_maybe_39
+      213: -7700948742219177650
+    second: Alan_Ready_39
   - first:
-      213: -8362913138946316158
-    second: alan_noair_maybe_40
+      213: -2296649701639767461
+    second: Alan_Ready_40
   - first:
-      213: 8625677922060652229
-    second: alan_noair_maybe_41
+      213: 3897488735410923980
+    second: Alan_Ready_41
   - first:
-      213: 5248929863553326811
-    second: alan_noair_maybe_42
+      213: 316200750849632002
+    second: Alan_Ready_42
   - first:
-      213: 4772252325164611484
-    second: alan_noair_maybe_43
+      213: 6399723545566038248
+    second: Alan_Ready_43
   - first:
-      213: 2021296937245147877
-    second: alan_noair_maybe_44
+      213: -1937119033833297590
+    second: Alan_Ready_44
   - first:
-      213: 6973546808975760142
-    second: alan_noair_maybe_45
+      213: -4010102273590096055
+    second: Alan_Ready_45
   - first:
-      213: 1364003436805821545
-    second: alan_noair_maybe_46
+      213: 59628348680001004
+    second: Alan_Ready_46
   - first:
-      213: -7338550473923204912
-    second: alan_noair_maybe_47
+      213: 8550675957838415933
+    second: Alan_Ready_47
   - first:
-      213: 4855863197848908179
-    second: alan_noair_maybe_48
+      213: -4673819235815392533
+    second: Alan_Ready_48
   - first:
-      213: -144590826088949399
-    second: alan_noair_maybe_49
+      213: -1216292152370755965
+    second: Alan_Ready_49
   - first:
-      213: 6989848689792839075
-    second: alan_noair_maybe_50
+      213: -6294291404769949890
+    second: Alan_Ready_50
   - first:
-      213: 7091666372979122283
-    second: alan_noair_maybe_51
+      213: 6838721254592381509
+    second: Alan_Ready_51
   - first:
-      213: 7038807200627372067
-    second: alan_noair_maybe_52
+      213: -1057621618204887656
+    second: Alan_Ready_52
   - first:
-      213: 2820730651434932470
-    second: alan_noair_maybe_53
+      213: 2129100361799726371
+    second: Alan_Ready_53
   - first:
-      213: -3138859125929926971
-    second: alan_noair_maybe_54
+      213: -10569361993859519
+    second: Alan_Ready_54
   - first:
-      213: 4839293602307879609
-    second: alan_noair_maybe_55
+      213: -5206347366124185968
+    second: Alan_Ready_55
   - first:
-      213: 4432985673400108157
-    second: alan_noair_maybe_56
+      213: 7796130093269723480
+    second: Alan_Ready_56
   - first:
-      213: 3166558328490192797
-    second: alan_noair_maybe_57
+      213: 4752035977721219176
+    second: Alan_Ready_57
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -297,7 +297,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: alan_noair_maybe_0
+      name: Alan_Ready_0
       rect:
         serializedVersion: 2
         x: 7
@@ -312,19 +312,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5528bdab5378a860800000000000000
-      internalID: 7541404413625640283
+      spriteID: 1745cca4a91457ab0800000000000000
+      internalID: -5011026879444134799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_1
+      name: Alan_Ready_1
       rect:
         serializedVersion: 2
         x: 109
         y: 1067
-        width: 188
+        width: 172
         height: 153
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -334,19 +334,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d72d7307c76182de0800000000000000
-      internalID: -1357810563937742211
+      spriteID: 916b152f717c92920800000000000000
+      internalID: 2966120735263798809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_2
+      name: Alan_Ready_2
       rect:
         serializedVersion: 2
         x: 297
         y: 1077
-        width: 192
+        width: 182
         height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -356,20 +356,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fc845d106deccd50800000000000000
-      internalID: 6759038137840995577
+      spriteID: 76724606349b2c510800000000000000
+      internalID: 1568019319309477735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_3
+      name: Alan_Ready_3
       rect:
         serializedVersion: 2
         x: 489
         y: 1075
         width: 135
-        height: 148
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,20 +378,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ca51e63374043560800000000000000
-      internalID: 7292458589508164294
+      spriteID: d675b194bf82806e0800000000000000
+      internalID: -1871200585444010131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_4
+      name: Alan_Ready_4
       rect:
         serializedVersion: 2
-        x: 630
-        y: 1151
-        width: 62
-        height: 46
+        x: 629
+        y: 1121
+        width: 66
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,14 +400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8bce096d8523bf160800000000000000
-      internalID: 7060292197971717304
+      spriteID: 77d6dd28f2fc64310800000000000000
+      internalID: 1389025338056338807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_5
+      name: Alan_Ready_5
       rect:
         serializedVersion: 2
         x: 722
@@ -422,14 +422,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 639e504956c9ade40800000000000000
-      internalID: 5682025839970347318
+      spriteID: e0001aa3c85a906c0800000000000000
+      internalID: -4176625157711790066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_6
+      name: Alan_Ready_6
       rect:
         serializedVersion: 2
         x: 869
@@ -444,14 +444,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01c6a0caaa0515300800000000000000
-      internalID: 239060949188373520
+      spriteID: b08300c209eb42690800000000000000
+      internalID: -7627762342435997685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_7
+      name: Alan_Ready_7
       rect:
         serializedVersion: 2
         x: 998
@@ -466,14 +466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 200ca19f452c9c870800000000000000
-      internalID: 8703701425082515458
+      spriteID: d47efb41afad63c20800000000000000
+      internalID: 3185974554036004685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_8
+      name: Alan_Ready_8
       rect:
         serializedVersion: 2
         x: 3
@@ -488,14 +488,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af26b41615c73a370800000000000000
-      internalID: 8332640424532075258
+      spriteID: 4e046068d19147720800000000000000
+      internalID: 2842924879370928356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_9
+      name: Alan_Ready_9
       rect:
         serializedVersion: 2
         x: 125
@@ -510,14 +510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b37567ee1c2bc530800000000000000
-      internalID: 3876240415525270454
+      spriteID: 8715a33d49680e430800000000000000
+      internalID: 3810193258512535928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_10
+      name: Alan_Ready_10
       rect:
         serializedVersion: 2
         x: 247
@@ -532,14 +532,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a88984f8e286be570800000000000000
-      internalID: 8496999671146256522
+      spriteID: fa85c85271353cbe0800000000000000
+      internalID: -1458230495458600785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_11
+      name: Alan_Ready_11
       rect:
         serializedVersion: 2
         x: 262
@@ -554,14 +554,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b859dc3f63c9c71d0800000000000000
-      internalID: -3351632262837987957
+      spriteID: 5d5259c3e3ed53ff0800000000000000
+      internalID: -56895061386517035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_12
+      name: Alan_Ready_12
       rect:
         serializedVersion: 2
         x: 371
@@ -576,14 +576,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 536e22022d61dd500800000000000000
-      internalID: 422519031780795957
+      spriteID: c50a9d5950c046c50800000000000000
+      internalID: 6657459367288873052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_13
+      name: Alan_Ready_13
       rect:
         serializedVersion: 2
         x: 529
@@ -598,14 +598,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 313e13cc3be1e8010800000000000000
-      internalID: 1192924708873560851
+      spriteID: 8065253a207f877d0800000000000000
+      internalID: -2920312767647689208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_14
+      name: Alan_Ready_14
       rect:
         serializedVersion: 2
         x: 654
@@ -620,14 +620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 112c6d01648dd61b0800000000000000
-      internalID: -5661631361093025263
+      spriteID: 4cacdbd97c2ac3e60800000000000000
+      internalID: 7943402821003365060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_15
+      name: Alan_Ready_15
       rect:
         serializedVersion: 2
         x: 778
@@ -642,14 +642,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7278c3b79cf03800800000000000000
-      internalID: 590249279672054398
+      spriteID: 2c921d9a2b2810860800000000000000
+      internalID: 7494414958786062786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_16
+      name: Alan_Ready_16
       rect:
         serializedVersion: 2
         x: 905
@@ -664,14 +664,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 927003a71d7f2f0a0800000000000000
-      internalID: -6849139604206909655
+      spriteID: 92cfbfac96dd52340800000000000000
+      internalID: 4838516821126282281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_17
+      name: Alan_Ready_17
       rect:
         serializedVersion: 2
         x: 1032
@@ -686,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd666930576d11c80800000000000000
-      internalID: -8353660035735853348
+      spriteID: 03f30f989d2b612a0800000000000000
+      internalID: -6767024742685720784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_18
+      name: Alan_Ready_18
       rect:
         serializedVersion: 2
         x: 81
@@ -708,14 +708,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f40198f721bf13c40800000000000000
-      internalID: 5490445477609017423
+      spriteID: 74e0b8b8018c07300800000000000000
+      internalID: 247917952891555399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_19
+      name: Alan_Ready_19
       rect:
         serializedVersion: 2
         x: 145
@@ -730,14 +730,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9a94062875c639d0800000000000000
-      internalID: -2794829398912230756
+      spriteID: e0fdac10665eef950800000000000000
+      internalID: 6484872739739590414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_20
+      name: Alan_Ready_20
       rect:
         serializedVersion: 2
         x: 266
@@ -752,14 +752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9af641e4664b48450800000000000000
-      internalID: 6090190947601379241
+      spriteID: 61ad9d87026242640800000000000000
+      internalID: 5054206602724891158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_21
+      name: Alan_Ready_21
       rect:
         serializedVersion: 2
         x: 13
@@ -774,14 +774,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8583cd522b386e3b0800000000000000
-      internalID: -5483550695114393512
+      spriteID: 5167bdc926e3cd000800000000000000
+      internalID: 61993088135689749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_22
+      name: Alan_Ready_22
       rect:
         serializedVersion: 2
         x: 389
@@ -796,14 +796,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94418531224fe3f20800000000000000
-      internalID: 3404426795529278537
+      spriteID: 8d21c987613d2d240800000000000000
+      internalID: 4815143045078717144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_23
+      name: Alan_Ready_23
       rect:
         serializedVersion: 2
         x: 520
@@ -818,14 +818,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 478722894952ff360800000000000000
-      internalID: 7205519248953866356
+      spriteID: 4e0cf2fab868792b0800000000000000
+      internalID: -5577841678977351452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_24
+      name: Alan_Ready_24
       rect:
         serializedVersion: 2
         x: 633
@@ -840,14 +840,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff361d6ca5336be20800000000000000
-      internalID: 3365934236481709055
+      spriteID: a8819f3034d34aeb0800000000000000
+      internalID: -4709571952283936630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_25
+      name: Alan_Ready_25
       rect:
         serializedVersion: 2
         x: 753
@@ -862,14 +862,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d177d08328255bd0800000000000000
-      internalID: -2642161473432358443
+      spriteID: f8521c398fe41a360800000000000000
+      internalID: 7179106110543046031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_26
+      name: Alan_Ready_26
       rect:
         serializedVersion: 2
         x: 895
@@ -884,14 +884,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bfdba23dcc8da53f0800000000000000
-      internalID: -911177600361382405
+      spriteID: 0482aa8819c3d0570800000000000000
+      internalID: 8434464272895584320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_27
+      name: Alan_Ready_27
       rect:
         serializedVersion: 2
         x: 1022
@@ -906,14 +906,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee2467a8f2f46bdc0800000000000000
-      internalID: -3623621784567921938
+      spriteID: f2cc62140cf6ae520800000000000000
+      internalID: 2732118995471092783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_28
+      name: Alan_Ready_28
       rect:
         serializedVersion: 2
         x: 13
@@ -928,14 +928,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d947c70812e91a8e0800000000000000
-      internalID: -1683890918933105507
+      spriteID: f5399e471370dcf80800000000000000
+      internalID: -8084797847063915681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_29
+      name: Alan_Ready_29
       rect:
         serializedVersion: 2
         x: 99
@@ -950,14 +950,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 563711c37f75f9040800000000000000
-      internalID: 4656537259100697445
+      spriteID: 76df4099c4ebd83c0800000000000000
+      internalID: -4355616028403368601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_30
+      name: Alan_Ready_30
       rect:
         serializedVersion: 2
         x: 141
@@ -972,14 +972,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 162fb209ec34d0d40800000000000000
-      internalID: 5552168470078812769
+      spriteID: 9fdb00adb44363400800000000000000
+      internalID: 303487525278760441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_31
+      name: Alan_Ready_31
       rect:
         serializedVersion: 2
         x: 277
@@ -994,14 +994,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c18e4e5d7eda1ed0800000000000000
-      internalID: -2442395217860591161
+      spriteID: a812e1f356023c060800000000000000
+      internalID: 6972452267322384778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_32
+      name: Alan_Ready_32
       rect:
         serializedVersion: 2
         x: 393
@@ -1016,14 +1016,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34a7f2d1c56b1d300800000000000000
-      internalID: 275201558989208131
+      spriteID: 7a9685222db854820800000000000000
+      internalID: 2901879269545765287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_33
+      name: Alan_Ready_33
       rect:
         serializedVersion: 2
         x: 519
@@ -1038,14 +1038,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33df66fdfb77b2ed0800000000000000
-      internalID: -2437723107320464077
+      spriteID: d61fe0f2e95402160800000000000000
+      internalID: 6998670366630408557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_34
+      name: Alan_Ready_34
       rect:
         serializedVersion: 2
         x: 662
@@ -1060,14 +1060,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20340764663b88e70800000000000000
-      internalID: 9117734697461367554
+      spriteID: 299711a379c622e80800000000000000
+      internalID: -8204876174345537134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_35
+      name: Alan_Ready_35
       rect:
         serializedVersion: 2
         x: 780
@@ -1082,14 +1082,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3771793cd35115000800000000000000
-      internalID: 22822828132210547
+      spriteID: 6c2963ad8ba5ca9e0800000000000000
+      internalID: -1608811216896617786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_36
+      name: Alan_Ready_36
       rect:
         serializedVersion: 2
         x: 881
@@ -1104,14 +1104,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a482ec57fa3ad8300800000000000000
-      internalID: 256040727821035594
+      spriteID: 02c1924bbf0521de0800000000000000
+      internalID: -1363938695150232544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_37
+      name: Alan_Ready_37
       rect:
         serializedVersion: 2
         x: 1012
@@ -1126,14 +1126,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aaf8241fefbcea910800000000000000
-      internalID: 1850640792725655466
+      spriteID: 7166c24459ccda330800000000000000
+      internalID: 3723857408371222039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_38
+      name: Alan_Ready_38
       rect:
         serializedVersion: 2
         x: 357
@@ -1148,14 +1148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 199e82e6d6a9af270800000000000000
-      internalID: 8285104259291736465
+      spriteID: 8e9a9bd3a7e42e1e0800000000000000
+      internalID: -2170085783510603288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_39
+      name: Alan_Ready_39
       rect:
         serializedVersion: 2
         x: 329
@@ -1170,14 +1170,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d3c02f7cc0c7e460800000000000000
-      internalID: 7270992107951670233
+      spriteID: e41e88a9bebb02590800000000000000
+      internalID: -7700948742219177650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_40
+      name: Alan_Ready_40
       rect:
         serializedVersion: 2
         x: 289
@@ -1192,14 +1192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28868a90fc6f0fb80800000000000000
-      internalID: -8362913138946316158
+      spriteID: b5a3148b349a020e0800000000000000
+      internalID: -2296649701639767461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_41
+      name: Alan_Ready_41
       rect:
         serializedVersion: 2
         x: 159
@@ -1214,14 +1214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ceca5b8e5094b770800000000000000
-      internalID: 8625677922060652229
+      spriteID: cc92146ea59a61630800000000000000
+      internalID: 3897488735410923980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_42
+      name: Alan_Ready_42
       rect:
         serializedVersion: 2
         x: 283
@@ -1236,14 +1236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bde1900a6e1f7d840800000000000000
-      internalID: 5248929863553326811
+      spriteID: 207aa1858ee536400800000000000000
+      internalID: 316200750849632002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_43
+      name: Alan_Ready_43
       rect:
         serializedVersion: 2
         x: 447
@@ -1258,14 +1258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c97f7fb84327a3240800000000000000
-      internalID: 4772252325164611484
+      spriteID: 8e8ca2258a260d850800000000000000
+      internalID: 6399723545566038248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_44
+      name: Alan_Ready_44
       rect:
         serializedVersion: 2
         x: 578
@@ -1280,14 +1280,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e2051aead61d0c10800000000000000
-      internalID: 2021296937245147877
+      spriteID: a49e7b48088fd15e0800000000000000
+      internalID: -1937119033833297590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_45
+      name: Alan_Ready_45
       rect:
         serializedVersion: 2
         x: 726
@@ -1302,14 +1302,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0b1f8510e307c060800000000000000
-      internalID: 6973546808975760142
+      spriteID: 94f0da58a314958c0800000000000000
+      internalID: -4010102273590096055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_46
+      name: Alan_Ready_46
       rect:
         serializedVersion: 2
         x: 808
@@ -1324,14 +1324,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 964193326e9ede210800000000000000
-      internalID: 1364003436805821545
+      spriteID: ce55d9dcaa7d3d000800000000000000
+      internalID: 59628348680001004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_47
+      name: Alan_Ready_47
       rect:
         serializedVersion: 2
         x: 852
@@ -1346,14 +1346,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d8688ba93b382a90800000000000000
-      internalID: -7338550473923204912
+      spriteID: d388e60fa7a1aa670800000000000000
+      internalID: 8550675957838415933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_48
+      name: Alan_Ready_48
       rect:
         serializedVersion: 2
         x: 1028
@@ -1368,14 +1368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3913da9d9dd736340800000000000000
-      internalID: 4855863197848908179
+      spriteID: beaf5d00b22432fb0800000000000000
+      internalID: -4673819235815392533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_49
+      name: Alan_Ready_49
       rect:
         serializedVersion: 2
         x: 0
@@ -1390,14 +1390,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9691035e86f4efdf0800000000000000
-      internalID: -144590826088949399
+      spriteID: 38688da4bbcde1fe0800000000000000
+      internalID: -1216292152370755965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_50
+      name: Alan_Ready_50
       rect:
         serializedVersion: 2
         x: 0
@@ -1412,14 +1412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ade4dc795ee00160800000000000000
-      internalID: 6989848689792839075
+      spriteID: e3784e1e05f26a8a0800000000000000
+      internalID: -6294291404769949890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_51
+      name: Alan_Ready_51
       rect:
         serializedVersion: 2
         x: 123
@@ -1434,14 +1434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b60e0033ef8aa6260800000000000000
-      internalID: 7091666372979122283
+      spriteID: 54284e97fb408ee50800000000000000
+      internalID: 6838721254592381509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_52
+      name: Alan_Ready_52
       rect:
         serializedVersion: 2
         x: 260
@@ -1456,14 +1456,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3203bd31bdddea160800000000000000
-      internalID: 7038807200627372067
+      spriteID: 895bf14edb29251f0800000000000000
+      internalID: -1057621618204887656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_53
+      name: Alan_Ready_53
       rect:
         serializedVersion: 2
         x: 417
@@ -1478,14 +1478,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f8d5d5259f352720800000000000000
-      internalID: 2820730651434932470
+      spriteID: 3257a34af751c8d10800000000000000
+      internalID: 2129100361799726371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_54
+      name: Alan_Ready_54
       rect:
         serializedVersion: 2
         x: 572
@@ -1500,14 +1500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ce14fe51488074d0800000000000000
-      internalID: -3138859125929926971
+      spriteID: 14e7ad4a8337adff0800000000000000
+      internalID: -10569361993859519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_55
+      name: Alan_Ready_55
       rect:
         serializedVersion: 2
         x: 698
@@ -1522,14 +1522,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b2b16144ef982340800000000000000
-      internalID: 4839293602307879609
+      spriteID: 09690e8a7a65fb7b0800000000000000
+      internalID: -5206347366124185968
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_56
+      name: Alan_Ready_56
       rect:
         serializedVersion: 2
         x: 887
@@ -1544,14 +1544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d74c865abf0258d30800000000000000
-      internalID: 4432985673400108157
+      spriteID: 8592310a30b613c60800000000000000
+      internalID: 7796130093269723480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: alan_noair_maybe_57
+      name: Alan_Ready_57
       rect:
         serializedVersion: 2
         x: 1028
@@ -1566,8 +1566,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9f663ac500e1fb20800000000000000
-      internalID: 3166558328490192797
+      spriteID: 86803fb5b8f92f140800000000000000
+      internalID: 4752035977721219176
       vertices: []
       indices: 
       edges: []
@@ -1586,64 +1586,64 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      alan_noair_maybe_0: 7541404413625640283
-      alan_noair_maybe_1: -1357810563937742211
-      alan_noair_maybe_10: 8496999671146256522
-      alan_noair_maybe_11: -3351632262837987957
-      alan_noair_maybe_12: 422519031780795957
-      alan_noair_maybe_13: 1192924708873560851
-      alan_noair_maybe_14: -5661631361093025263
-      alan_noair_maybe_15: 590249279672054398
-      alan_noair_maybe_16: -6849139604206909655
-      alan_noair_maybe_17: -8353660035735853348
-      alan_noair_maybe_18: 5490445477609017423
-      alan_noair_maybe_19: -2794829398912230756
-      alan_noair_maybe_2: 6759038137840995577
-      alan_noair_maybe_20: 6090190947601379241
-      alan_noair_maybe_21: -5483550695114393512
-      alan_noair_maybe_22: 3404426795529278537
-      alan_noair_maybe_23: 7205519248953866356
-      alan_noair_maybe_24: 3365934236481709055
-      alan_noair_maybe_25: -2642161473432358443
-      alan_noair_maybe_26: -911177600361382405
-      alan_noair_maybe_27: -3623621784567921938
-      alan_noair_maybe_28: -1683890918933105507
-      alan_noair_maybe_29: 4656537259100697445
-      alan_noair_maybe_3: 7292458589508164294
-      alan_noair_maybe_30: 5552168470078812769
-      alan_noair_maybe_31: -2442395217860591161
-      alan_noair_maybe_32: 275201558989208131
-      alan_noair_maybe_33: -2437723107320464077
-      alan_noair_maybe_34: 9117734697461367554
-      alan_noair_maybe_35: 22822828132210547
-      alan_noair_maybe_36: 256040727821035594
-      alan_noair_maybe_37: 1850640792725655466
-      alan_noair_maybe_38: 8285104259291736465
-      alan_noair_maybe_39: 7270992107951670233
-      alan_noair_maybe_4: 7060292197971717304
-      alan_noair_maybe_40: -8362913138946316158
-      alan_noair_maybe_41: 8625677922060652229
-      alan_noair_maybe_42: 5248929863553326811
-      alan_noair_maybe_43: 4772252325164611484
-      alan_noair_maybe_44: 2021296937245147877
-      alan_noair_maybe_45: 6973546808975760142
-      alan_noair_maybe_46: 1364003436805821545
-      alan_noair_maybe_47: -7338550473923204912
-      alan_noair_maybe_48: 4855863197848908179
-      alan_noair_maybe_49: -144590826088949399
-      alan_noair_maybe_5: 5682025839970347318
-      alan_noair_maybe_50: 6989848689792839075
-      alan_noair_maybe_51: 7091666372979122283
-      alan_noair_maybe_52: 7038807200627372067
-      alan_noair_maybe_53: 2820730651434932470
-      alan_noair_maybe_54: -3138859125929926971
-      alan_noair_maybe_55: 4839293602307879609
-      alan_noair_maybe_56: 4432985673400108157
-      alan_noair_maybe_57: 3166558328490192797
-      alan_noair_maybe_6: 239060949188373520
-      alan_noair_maybe_7: 8703701425082515458
-      alan_noair_maybe_8: 8332640424532075258
-      alan_noair_maybe_9: 3876240415525270454
+      Alan_Ready_0: -5011026879444134799
+      Alan_Ready_1: 2966120735263798809
+      Alan_Ready_10: -1458230495458600785
+      Alan_Ready_11: -56895061386517035
+      Alan_Ready_12: 6657459367288873052
+      Alan_Ready_13: -2920312767647689208
+      Alan_Ready_14: 7943402821003365060
+      Alan_Ready_15: 7494414958786062786
+      Alan_Ready_16: 4838516821126282281
+      Alan_Ready_17: -6767024742685720784
+      Alan_Ready_18: 247917952891555399
+      Alan_Ready_19: 6484872739739590414
+      Alan_Ready_2: 1568019319309477735
+      Alan_Ready_20: 5054206602724891158
+      Alan_Ready_21: 61993088135689749
+      Alan_Ready_22: 4815143045078717144
+      Alan_Ready_23: -5577841678977351452
+      Alan_Ready_24: -4709571952283936630
+      Alan_Ready_25: 7179106110543046031
+      Alan_Ready_26: 8434464272895584320
+      Alan_Ready_27: 2732118995471092783
+      Alan_Ready_28: -8084797847063915681
+      Alan_Ready_29: -4355616028403368601
+      Alan_Ready_3: -1871200585444010131
+      Alan_Ready_30: 303487525278760441
+      Alan_Ready_31: 6972452267322384778
+      Alan_Ready_32: 2901879269545765287
+      Alan_Ready_33: 6998670366630408557
+      Alan_Ready_34: -8204876174345537134
+      Alan_Ready_35: -1608811216896617786
+      Alan_Ready_36: -1363938695150232544
+      Alan_Ready_37: 3723857408371222039
+      Alan_Ready_38: -2170085783510603288
+      Alan_Ready_39: -7700948742219177650
+      Alan_Ready_4: 1389025338056338807
+      Alan_Ready_40: -2296649701639767461
+      Alan_Ready_41: 3897488735410923980
+      Alan_Ready_42: 316200750849632002
+      Alan_Ready_43: 6399723545566038248
+      Alan_Ready_44: -1937119033833297590
+      Alan_Ready_45: -4010102273590096055
+      Alan_Ready_46: 59628348680001004
+      Alan_Ready_47: 8550675957838415933
+      Alan_Ready_48: -4673819235815392533
+      Alan_Ready_49: -1216292152370755965
+      Alan_Ready_5: -4176625157711790066
+      Alan_Ready_50: -6294291404769949890
+      Alan_Ready_51: 6838721254592381509
+      Alan_Ready_52: -1057621618204887656
+      Alan_Ready_53: 2129100361799726371
+      Alan_Ready_54: -10569361993859519
+      Alan_Ready_55: -5206347366124185968
+      Alan_Ready_56: 7796130093269723480
+      Alan_Ready_57: 4752035977721219176
+      Alan_Ready_6: -7627762342435997685
+      Alan_Ready_7: 3185974554036004685
+      Alan_Ready_8: 2842924879370928356
+      Alan_Ready_9: 3810193258512535928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
